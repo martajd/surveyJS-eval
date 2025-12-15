@@ -1,0 +1,164 @@
+.survey-renderer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.survey-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+}
+
+.no-schema {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.responses-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
+  border-radius: 4px;
+  border: 2px solid #4caf50;
+}
+
+.responses-header {
+  margin-bottom: 20px;
+}
+
+.responses-header h3 {
+  color: #2e7d32;
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.responses-header p {
+  color: #558b2f;
+  margin: 0;
+}
+
+.responses-content {
+  flex: 1;
+  overflow-y: auto;
+  background-color: white;
+  border: 1px solid #81c784;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.responses-content pre {
+  margin: 0;
+  font-size: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: #333;
+}
+
+.responses-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.reset-btn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.reset-btn:hover {
+  background-color: #45a049;
+}
+
+/* SurveyJS styling adjustments */
+:host ::ng-deep .sv_container {
+  font-family: inherit;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
+:host ::ng-deep .sv_root_modern {
+  background-color: transparent;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
+:host ::ng-deep survey {
+  width: 100%;
+}
+
+:host ::ng-deep .sv_q {
+  margin-bottom: 20px;
+}
+
+:host ::ng-deep .sv_q_title {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+:host ::ng-deep .sv_inp {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+:host ::ng-deep .sv_inp:focus {
+  border-color: #1976d2;
+  box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.1);
+}
+
+:host ::ng-deep .sv_next_btn {
+  background-color: #1976d2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+:host ::ng-deep .sv_next_btn:hover {
+  background-color: #1565c0;
+}
+
+:host ::ng-deep .sv_prev_btn {
+  background-color: #757575;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+:host ::ng-deep .sv_prev_btn:hover {
+  background-color: #616161;
+}

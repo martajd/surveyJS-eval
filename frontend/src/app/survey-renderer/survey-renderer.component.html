@@ -1,0 +1,24 @@
+<div class="survey-renderer">
+  <div *ngIf="surveyModel && !hasResponded" class="survey-container">
+    <survey [model]="surveyModel"></survey>
+  </div>
+
+  <div *ngIf="!surveyModel" class="no-schema">
+    <p>No valid survey schema provided</p>
+  </div>
+
+  <div *ngIf="hasResponded && responses" class="responses-container">
+    <div class="responses-header">
+      <h3>Survey Completed!</h3>
+      <p>Thank you for completing the survey. Here are your responses:</p>
+    </div>
+
+    <div class="responses-content">
+      <pre>{{ responsesJson }}</pre>
+    </div>
+
+    <div class="responses-actions">
+      <button class="reset-btn" (click)="resetSurvey()">Take Survey Again</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,66 @@
+<div class="import-container">
+  <button class="import-btn" (click)="openDialog()">📥 Import Schema</button>
+
+  <!-- Modal Overlay -->
+  <div *ngIf="isOpen" class="modal-overlay" (click)="closeDialog()"></div>
+
+  <!-- Modal Dialog -->
+  <div *ngIf="isOpen" class="modal-dialog" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <h2>Import SurveyJS Schema</h2>
+      <button class="close-btn" (click)="closeDialog()">✕</button>
+    </div>
+
+    <div class="modal-body">
+      <div class="form-group">
+        <label for="surveyName">Survey Name:</label>
+        <input
+          type="text"
+          id="surveyName"
+          [(ngModel)]="surveyName"
+          placeholder="Enter a name for this survey"
+          (keydown)="onKeyDown($event)"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="jsonSchema">JSON Schema:</label>
+        <p class="hint">Paste a SurveyJS schema JSON (Ctrl+Enter to import)</p>
+        <textarea
+          id="jsonSchema"
+          [(ngModel)]="jsonText"
+          placeholder="Paste your SurveyJS JSON schema here..."
+          rows="15"
+          (keydown)="onKeyDown($event)"
+        ></textarea>
+      </div>
+
+      <div *ngIf="errorMessage" class="error-message">
+        ⚠️ {{ errorMessage }}
+      </div>
+
+      <div class="example-hint">
+        <details>
+          <summary>📖 Example Schema</summary>
+          <pre>{{'{
+  "title": "My Survey",
+  "elements": [
+    {
+      "type": "text",
+      "name": "question1",
+      "title": "What is your name?"
+    }
+  ]
+}'}}</pre>
+        </details>
+      </div>
+    </div>
+
+    <div class="modal-footer">
+      <button class="cancel-btn" (click)="closeDialog()">Cancel</button>
+      <button class="import-submit-btn" (click)="importSchema()" [disabled]="isLoading">
+        {{ isLoading ? 'Importing...' : '✓ Import Survey' }}
+      </button>
+    </div>
+  </div>
+</div>
