@@ -1,0 +1,670 @@
+{
+  "title": "PCI DSS v4.0.1 ROC Template",
+  "description": "Report on Compliance Assessment Template - September 2024",
+  "logoPosition": "right",
+  "pages": [
+    {
+      "name": "contact_information",
+      "title": "Part I: Assessment Overview - Contact Information",
+      "elements": [
+        {
+          "type": "panel",
+          "name": "assessed_entity_panel",
+          "title": "Assessed Entity",
+          "elements": [
+            {
+              "type": "text",
+              "name": "company_name",
+              "title": "Company name:"
+            },
+            {
+              "type": "text",
+              "name": "dba",
+              "title": "DBA (doing business as):",
+              "value": "TechRetail Solutions LLC"
+            },
+            {
+              "type": "text",
+              "name": "mailing_address",
+              "title": "Mailing address:"
+            },
+            {
+              "type": "text",
+              "name": "company_main_website",
+              "title": "Company main website:",
+              "inputType": "url",
+              "value": "https://www.techretailsolutions.com"
+            },
+            {
+              "type": "text",
+              "name": "contact_name",
+              "title": "Contact name:",
+              "value": "Michael Chen"
+            },
+            {
+              "type": "text",
+              "name": "contact_title",
+              "title": "Contact title:"
+            },
+            {
+              "type": "text",
+              "name": "contact_phone",
+              "title": "Contact phone number:",
+              "inputType": "tel",
+              "value": "(415) 555-0123"
+            },
+            {
+              "type": "text",
+              "name": "contact_email",
+              "title": "Contact e-mail address:",
+              "inputType": "email",
+              "validators": [
+                {
+                  "type": "email"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "isa_panel",
+          "title": "Assessed Entity Internal Security Assessors",
+          "description": "Identify all Internal Security Assessors (ISAs) involved in the assessment. If there were none, mark as Not Applicable.",
+          "elements": [
+            {
+              "type": "matrixdynamic",
+              "name": "isa_list",
+              "title": "Internal Security Assessors",
+              "columns": [
+                {
+                  "name": "isa_name",
+                  "title": "ISA name",
+                  "cellType": "text"
+                }
+              ],
+              "rowCount": 0,
+              "minRowCount": 0,
+              "addRowText": "Add ISA",
+              "removeRowText": "Remove"
+            },
+            {
+              "type": "boolean",
+              "name": "no_isa",
+              "title": "No Internal Security Assessors were involved",
+              "defaultValue": false
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "qsa_company_panel",
+          "title": "Qualified Security Assessor Company",
+          "elements": [
+            {
+              "type": "text",
+              "name": "qsa_company_name",
+              "title": "Company name:",
+              "value": "SecureNet Consulting Inc."
+            },
+            {
+              "type": "text",
+              "name": "qsa_mailing_address",
+              "title": "Mailing address:"
+            },
+            {
+              "type": "text",
+              "name": "qsa_company_website",
+              "title": "Company website:",
+              "inputType": "url",
+              "value": "https://www.securenetconsulting.com"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "lead_assessor_panel",
+          "title": "Lead Qualified Security Assessor",
+          "elements": [
+            {
+              "type": "text",
+              "name": "lead_assessor_name",
+              "title": "Lead Assessor name:",
+              "value": "Dr. Sarah Mitchell"
+            },
+            {
+              "type": "text",
+              "name": "lead_assessor_phone",
+              "title": "Assessor phone number:",
+              "inputType": "tel"
+            },
+            {
+              "type": "text",
+              "name": "lead_assessor_email",
+              "title": "Assessor e-mail address:",
+              "inputType": "email",
+              "validators": [
+                {
+                  "type": "email"
+                }
+              ],
+              "value": "sarah.mitchell@securenetconsulting.com"
+            },
+            {
+              "type": "text",
+              "name": "lead_assessor_certificate",
+              "title": "Assessor certificate number:"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "additional_assessors_panel",
+          "title": "Additional Assessors",
+          "elements": [
+            {
+              "type": "matrixdynamic",
+              "name": "associate_qsa_list",
+              "title": "Associate QSAs",
+              "description": "Identify all Associate QSAs involved in the assessment. If there were none, mark as Not Applicable.",
+              "columns": [
+                {
+                  "name": "associate_qsa_name",
+                  "title": "Associate QSA name",
+                  "cellType": "text"
+                },
+                {
+                  "name": "associate_qsa_mentor",
+                  "title": "Associate QSA mentor name",
+                  "cellType": "text"
+                }
+              ],
+              "rowCount": 0,
+              "minRowCount": 0,
+              "addRowText": "Add Associate QSA",
+              "removeRowText": "Remove"
+            },
+            {
+              "type": "matrixdynamic",
+              "name": "other_assessors_list",
+              "title": "Other Assessors",
+              "description": "Identify all other assessors involved in the assessment. If there were none, mark as Not Applicable.",
+              "columns": [
+                {
+                  "name": "assessor_name",
+                  "title": "Assessor name",
+                  "cellType": "text"
+                },
+                {
+                  "name": "assessor_certificate",
+                  "title": "Assessor certificate number",
+                  "cellType": "text"
+                }
+              ],
+              "rowCount": 0,
+              "minRowCount": 0,
+              "addRowText": "Add Assessor",
+              "removeRowText": "Remove"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "qa_reviewer_panel",
+          "title": "Assessor Quality Assurance (QA) Primary Reviewer",
+          "description": "For this specific report (not the general QA contact for the QSA Company)",
+          "elements": [
+            {
+              "type": "text",
+              "name": "qa_reviewer_name",
+              "title": "QA reviewer name:",
+              "value": "Jennifer Walsh"
+            },
+            {
+              "type": "text",
+              "name": "qa_reviewer_phone",
+              "title": "QA reviewer phone number:",
+              "inputType": "tel"
+            },
+            {
+              "type": "text",
+              "name": "qa_reviewer_email",
+              "title": "QA reviewer e-mail address:",
+              "inputType": "email",
+              "validators": [
+                {
+                  "type": "email"
+                }
+              ],
+              "value": "jennifer.walsh@securenetconsulting.com"
+            },
+            {
+              "type": "text",
+              "name": "qa_reviewer_credentials",
+              "title": "QA reviewer's PCI credentials or certificate number:",
+              "description": "See the current QSA Qualification Requirements for acceptable credentials"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "date_timeframe",
+      "title": "Date and Timeframe of Assessment",
+      "elements": [
+        {
+          "type": "text",
+          "name": "date_of_report",
+          "title": "Date of Report:",
+          "description": "The 'Date of Report' indicates the completion date of the ROC, and therefore must be no earlier than the date on which the QSA Company and assessed entity agree on the final version of the ROC.",
+          "inputType": "date",
+          "value": "2024-09-15"
+        },
+        {
+          "type": "text",
+          "name": "date_assessment_began",
+          "title": "Date assessment began:",
+          "description": "This is the first date that evidence was gathered, or observations were made.",
+          "inputType": "date"
+        },
+        {
+          "type": "text",
+          "name": "date_assessment_ended",
+          "title": "Date assessment ended:",
+          "description": "This is the last date that evidence was gathered, or observations were made.",
+          "inputType": "date",
+          "value": "2024-09-10"
+        },
+        {
+          "type": "comment",
+          "name": "onsite_dates",
+          "title": "Identify the date(s) spent onsite at the assessed entity:",
+          "value": "September 1-3, 2024 and September 8, 2024"
+        }
+      ]
+    },
+    {
+      "name": "remote_assessment",
+      "title": "Remote Assessment Activities",
+      "description": "Refer to the PCI SSC Remote Assessment Guidelines and Procedures on the PCI SSC website for more information.",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "remote_testing_extent",
+          "title": "To what extent were remote testing methods used for this assessment?",
+          "choices": [
+            {
+              "value": "all_onsite",
+              "text": "All testing was performed onsite"
+            },
+            {
+              "value": "combination",
+              "text": "A combination of onsite and remote testing methods was used"
+            },
+            {
+              "value": "all_remote",
+              "text": "All testing was performed remotely"
+            }
+          ],
+          "value": "combination"
+        },
+        {
+          "type": "comment",
+          "name": "remote_testing_reason",
+          "title": "If remote testing was used for any part of the assessment, briefly describe why onsite testing was not feasible or practical:",
+          "visibleIf": "{remote_testing_extent} = 'combination' or {remote_testing_extent} = 'all_remote'",
+          "value": "Network vulnerability scanning and log review were performed remotely to minimize disruption to production systems. Physical security inspections were completed during onsite visits."
+        }
+      ]
+    },
+    {
+      "name": "additional_services",
+      "title": "Additional Services Provided by QSA Company",
+      "description": "The PCI SSC Qualification Requirements for Qualified Security Assessors (QSA) includes content on 'Independence,' which specifies requirements for assessor disclosure of services and/or offerings that could reasonably be viewed to affect the independence of assessment.",
+      "elements": [
+        {
+          "type": "boolean",
+          "name": "customized_approach_consultation",
+          "title": "Did the QSA Company provide any consultation on the development or implementation of controls used for the Customized Approach?",
+          "description": "Note: This does not apply to the assessment of the Customized Approach.",
+          "labelTrue": "Yes",
+          "labelFalse": "No",
+          "value": false
+        },
+        {
+          "type": "comment",
+          "name": "customized_approach_consultation_description",
+          "title": "If 'Yes,' describe the nature of the consultation:",
+          "visibleIf": "{customized_approach_consultation} = true"
+        },
+        {
+          "type": "comment",
+          "name": "other_products_services",
+          "title": "Disclose all products or services provided to the assessed entity by the QSA Company that are not listed above and that were reviewed during this assessment or could reasonably be viewed to affect independence of assessment:",
+          "value": "SecureNet provided annual vulnerability assessment services during the 12-month assessment period. Services were limited to technical scans only, with no remediation recommendations or implementation support."
+        },
+        {
+          "type": "comment",
+          "name": "conflict_of_interest_efforts",
+          "title": "Describe efforts made to ensure no conflict of interest resulted from the above-mentioned products and services provided by the QSA Company:"
+        }
+      ]
+    },
+    {
+      "name": "subcontractors",
+      "title": "Use of Subcontractors",
+      "elements": [
+        {
+          "type": "boolean",
+          "name": "subcontractors_used",
+          "title": "Were any assessment activities subcontracted to another Assessor Company?",
+          "description": "Note: The use of subcontractors must conform with the requirements defined in the Qualification Requirements for Qualified Security Assessors (QSA) and Qualified Security Assessor Program Guide.",
+          "labelTrue": "Yes",
+          "labelFalse": "No",
+          "value": true
+        },
+        {
+          "type": "comment",
+          "name": "subcontractor_companies",
+          "title": "If yes, identify the Assessor Company(s) utilized during the assessment:",
+          "visibleIf": "{subcontractors_used} = true",
+          "value": "TechSecure Assessments LLC performed on-site security testing and physical security inspections under the primary assessment of SecureNet Consulting Inc."
+        }
+      ]
+    },
+    {
+      "name": "additional_info_reporting",
+      "title": "Additional Information/Reporting",
+      "elements": [
+        {
+          "type": "text",
+          "name": "consecutive_years",
+          "title": "Identify the number of consecutive years (including the current year) the QSA Company has issued ROCs for this entity:",
+          "inputType": "number",
+          "min": 1,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "overall_assessment_result",
+      "title": "Overall Assessment Result",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "assessment_type",
+          "title": "Assessment Type",
+          "description": "Indicate below whether a full or partial assessment was completed. Select only one.",
+          "choices": [
+            {
+              "value": "full",
+              "text": "Full Assessment: All requirements have been assessed and therefore no requirements were marked as Not Tested."
+            },
+            {
+              "value": "partial",
+              "text": "Partial Assessment: One or more requirements have not been assessed and were therefore marked as Not Tested. Any requirement not assessed is noted as Not Tested in section 1.8.1 below."
+            }
+          ],
+          "value": "full"
+        },
+        {
+          "type": "radiogroup",
+          "name": "overall_result",
+          "title": "Overall Assessment Result",
+          "description": "Select only one",
+          "choices": [
+            {
+              "value": "compliant",
+              "text": "Compliant: All sections of the PCI DSS ROC are complete, and all assessed requirements are marked as being either In Place or Not Applicable, resulting in an overall COMPLIANT rating; thereby the assessed entity has demonstrated compliance with all PCI DSS requirements except those noted as Not Tested above."
+            },
+            {
+              "value": "non_compliant",
+              "text": "Non-Compliant: Not all sections of the PCI DSS ROC are complete, or one or more requirements are marked as Not in Place, resulting in an overall NON-COMPLIANT rating; thereby the assessed entity has not demonstrated compliance with PCI DSS requirements."
+            },
+            {
+              "value": "compliant_legal_exception",
+              "text": "Compliant but with Legal Exception: One or more assessed requirements in the ROC are marked as Not in Place due to a legal restriction that prevents the requirement from being met and all other assessed requirements are marked as being either In Place or Not Applicable, resulting in an overall COMPLIANT BUT WITH LEGAL EXCEPTION rating."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "summary_of_assessment",
+      "title": "Summary of Assessment Findings and Methods",
+      "description": "Indicate all the findings and assessment methods within each PCI DSS principal requirement.",
+      "elements": [
+        {
+          "type": "matrixdropdown",
+          "name": "assessment_findings",
+          "title": "PCI DSS Requirements Assessment Findings",
+          "columns": [
+            {
+              "name": "in_place",
+              "title": "In Place",
+              "cellType": "checkbox"
+            },
+            {
+              "name": "not_applicable",
+              "title": "Not Applicable",
+              "cellType": "checkbox"
+            },
+            {
+              "name": "not_tested",
+              "title": "Not Tested",
+              "cellType": "checkbox"
+            },
+            {
+              "name": "not_in_place",
+              "title": "Not in Place",
+              "cellType": "checkbox"
+            },
+            {
+              "name": "compensating_control",
+              "title": "Compensating Control",
+              "cellType": "checkbox"
+            },
+            {
+              "name": "customized_approach",
+              "title": "Customized Approach",
+              "cellType": "checkbox"
+            }
+          ],
+          "rows": [
+            "Requirement 1",
+            "Requirement 2",
+            "Requirement 3",
+            "Requirement 4",
+            "Requirement 5",
+            "Requirement 6",
+            "Requirement 7",
+            "Requirement 8",
+            "Requirement 9",
+            "Requirement 10",
+            "Requirement 11",
+            "Requirement 12",
+            "Appendix A1",
+            "Appendix A2",
+            "Appendix A3"
+          ]
+        },
+        {
+          "type": "comment",
+          "name": "not_applicable_requirements",
+          "title": "Not Applicable Requirements:",
+          "description": "List sub-requirements marked as Not Applicable. Natural grouping of requirements is allowed. If there are none, enter 'Not Applicable.'"
+        },
+        {
+          "type": "comment",
+          "name": "not_tested_requirements",
+          "title": "Not Tested Requirements:",
+          "description": "List sub-requirements marked as Not Tested. Natural grouping of requirements is allowed. If there are none, enter 'Not Applicable.'",
+          "value": "Not Applicable"
+        },
+        {
+          "type": "comment",
+          "name": "not_in_place_legal_restriction",
+          "title": "Not in Place Due to Legal Restriction:",
+          "description": "List sub-requirements marked as Not in Place due to a legal restriction. Natural grouping of requirements is allowed. If there are none, enter 'Not Applicable.'"
+        },
+        {
+          "type": "comment",
+          "name": "not_in_place_not_legal",
+          "title": "Not in Place NOT Due to a Legal Restriction:",
+          "description": "List sub-requirements marked as Not in Place not due to a legal restriction. Natural grouping of requirements is allowed. If there are none, enter 'Not Applicable.'",
+          "value": "Not Applicable"
+        },
+        {
+          "type": "comment",
+          "name": "compensating_controls",
+          "title": "Compensating Controls Used:",
+          "description": "List sub-requirements that utilize Compensating Controls. Natural grouping of requirements is allowed. If there are none, enter 'Not Applicable.'"
+        },
+        {
+          "type": "comment",
+          "name": "customized_approach_used",
+          "title": "Customized Approach Used:",
+          "description": "List sub-requirements that utilize the Customized Approach. Natural grouping of requirements is allowed. If there are none, enter 'Not Applicable.'"
+        }
+      ]
+    },
+    {
+      "name": "business_overview",
+      "title": "Part 2: Business Overview",
+      "elements": [
+        {
+          "type": "comment",
+          "name": "business_nature",
+          "title": "Describe the nature of the entity's business (what kind of work they do, etc.):",
+          "description": "This is not intended to be a cut-and-paste from the entity's website but should be a tailored description that shows the assessor understands the business of the entity being assessed.",
+          "value": "TechRetail Solutions operates as a mid-sized e-commerce and point-of-sale retail organization with multiple physical store locations and online sales channels. The organization handles both direct customer card transactions and manages customer data across integrated inventory management systems."
+        },
+        {
+          "type": "comment",
+          "name": "business_account_data",
+          "title": "Describe the entity's business, services, or functions that store, process, or transmit account data:"
+        },
+        {
+          "type": "comment",
+          "name": "services_impact_security",
+          "title": "Describe any services or functions that the entity performs that could impact the security of account data:",
+          "description": "For example, merchant web site payment redirects or if the entity provides managed services",
+          "value": "The organization operates a third-party logistics provider interface for inventory management. This system transmits cardholder data to external payment processors and maintains PCI DSS cardholder data environment compliance."
+        },
+        {
+          "type": "checkbox",
+          "name": "payment_channels",
+          "title": "Identify the payment channels the entity utilizes:",
+          "choices": [
+            "Card-Present",
+            "Mail Order/Telephone Order (MOTO)",
+            "E-Commerce"
+          ],
+          "hasOther": true,
+          "otherText": "Other details:",
+          "value": ["Card-Present", "E-Commerce"]
+        }
+      ]
+    },
+    {
+      "name": "scope_of_work",
+      "title": "Part 3: Description of Scope of Work and Approach Taken",
+      "elements": [
+        {
+          "type": "panel",
+          "name": "scope_validation_panel",
+          "title": "Assessor's Validation of Defined Scope Accuracy",
+          "elements": [
+            {
+              "type": "comment",
+              "name": "scope_evaluation_difference",
+              "title": "Describe how the assessor's evaluation of scope differs from the assessed entity's evaluation of scope as documented in Requirement 12.5:",
+              "description": "If no difference was identified, mark as 'Not Applicable.'",
+              "value": "Not Applicable"
+            },
+            {
+              "type": "text",
+              "name": "scope_attestation_assessor",
+              "title": "Provide the name of the assessor who attests that:",
+              "description": "• They have performed an independent evaluation of the scope of the assessed entity's PCI DSS environment.\n• If the assessor's evaluation identified areas of scope not included in the assessed entity's documented scope, the assessed entity has updated their scoping documentation.\n• The scope of the assessment is complete and accurate to the best of the assessor's knowledge.",
+              "value": "Dr. Sarah Mitchell"
+            },
+            {
+              "type": "comment",
+              "name": "excluded_from_assessment",
+              "title": "Describe any business functions, locations, payment channels, or other areas of scope that were excluded from the assessment:",
+              "description": "Include:\n• What was excluded\n• Why was it excluded\n• If it was included in a separate assessment\n\nIf none, mark as 'Not Applicable.'"
+            },
+            {
+              "type": "comment",
+              "name": "scope_reduction_factors",
+              "title": "Identify any factors that resulted in reducing or limiting scope:",
+              "description": "For example, segmentation of the environment, use of a P2PE solution, etc.\nIf none, mark as 'Not Applicable.'",
+              "value": "Network segmentation between cardholder data environment (CDE) and non-CDE systems reduces scope. All payment processing is handled through a PCI-compliant third-party processor."
+            },
+            {
+              "type": "comment",
+              "name": "saq_eligibility_criteria",
+              "title": "Describe any use of SAQ eligibility criteria in determining applicability of PCI DSS requirements:",
+              "description": "Include:\n• The type of SAQ applied\n• The eligibility criteria for the applicable SAQ\n• How the assessor verified that the assessed entity's environment meets the eligibility criteria\n\nIf not used mark as 'Not Applicable.'\nNote: The only SAQ for service providers is SAQ D for Service Providers. All other SAQs are for merchants only."
+            },
+            {
+              "type": "comment",
+              "name": "additional_scope_information",
+              "title": "Additional information, if applicable:"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "segmentation_panel",
+          "title": "Segmentation",
+          "elements": [
+            {
+              "type": "boolean",
+              "name": "segmentation_used",
+              "title": "Has the assessed entity used segmentation to reduce the scope of the assessment?",
+              "description": "Note: An environment with no segmentation is considered a 'flat' network where all systems are considered to be in scope.",
+              "labelTrue": "Yes",
+              "labelFalse": "No",
+              "value": true
+            },
+            {
+              "type": "text",
+              "name": "segmentation_attestation_assessor",
+              "title": "If 'No,' provide the name of the assessor who attests that the entire network has been included in the scope of the assessment:",
+              "visibleIf": "{segmentation_used} = false"
+            },
+            {
+              "type": "comment",
+              "name": "segmentation_implementation",
+              "title": "If 'Yes,' describe how the segmentation is implemented, including the technologies and processes used:",
+              "visibleIf": "{segmentation_used} = true",
+              "value": "CDE is segregated using dedicated VLANs (VLAN 100 and 101) with firewall rule enforcement at network perimeter. Only authorized systems within DMZ access payment processing network. Network access control lists restrict traffic between CDE and administrative networks."
+            },
+            {
+              "type": "comment",
+              "name": "segmentation_out_of_scope",
+              "title": "If 'Yes,' describe the environments that were confirmed to be out of scope as a result of the segmentation methods:",
+              "visibleIf": "{segmentation_used} = true"
+            },
+            {
+              "type": "text",
+              "name": "segmentation_verification_assessor",
+              "title": "If 'Yes,' provide the name of the assessor who attests that:",
+              "description": "• The segmentation was verified to be adequate to reduce the scope of the assessment\n• The technologies/processes used to implement segmentation were included in this PCI DSS assessment",
+              "visibleIf": "{segmentation_used} = true",
+              "value": "Dr. Sarah Mitchell"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "showProgressBar": "top",
+  "progressBarType": "pages",
+  "showQuestionNumbers": "on",
+  "completeText": "Submit ROC",
+  "completedHtml": "<h3>Thank you for completing the PCI DSS v4.0.1 ROC Template!</h3><p>Your Report on Compliance has been submitted successfully.</p>",
+  "widthMode": "responsive"
+}
