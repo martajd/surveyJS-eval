@@ -1,5 +1,6 @@
 import { Component, Input, OnInit, OnChanges, SimpleChanges } from '@angular/core';
 import { Model } from 'survey-core';
+import { customTheme } from '../theme/custom-theme';
 
 @Component({
   selector: 'app-survey-renderer',
@@ -34,6 +35,10 @@ export class SurveyRendererComponent implements OnInit, OnChanges {
     try {
       console.log('Initializing survey with schema:', this.surveySchema);
       this.surveyModel = new Model(this.surveySchema);
+
+      // Apply custom theme as default
+      this.surveyModel.applyTheme(customTheme);
+      console.log('Applied custom theme to survey');
 
       // Extract and apply initial data from schema elements
       const initialData = this.extractInitialData(this.surveySchema);

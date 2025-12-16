@@ -1,0 +1,12161 @@
+/* Modal-filter-alpha */
+
+box-sizing: border-box;
+
+position: relative;
+width: 2017px;
+height: 1932px;
+
+background: #C7EAF8;
+border: 1px dashed #7B61FF;
+border-radius: 5px;
+
+
+/* status=empty, dropdown=off, save this view=unchecked */
+
+position: absolute;
+width: 972px;
+height: 561px;
+left: 15px;
+top: 5px;
+
+
+
+/* modal */
+
+position: absolute;
+width: 900px;
+height: 489px;
+left: 36px;
+top: 27px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Visual Design/Modal */
+box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 6px 3px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px rgba(0, 0, 0, 0.08);
+border-radius: 4px;
+
+
+/* filter_modal_header */
+
+position: absolute;
+width: 900px;
+height: 57px;
+left: 36px;
+top: 27px;
+
+
+
+/* hr */
+
+position: absolute;
+height: 1px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+
+/* Neutral/Light gray */
+background: #D0D3D4;
+opacity: 0.3;
+
+
+/* Generally Accepted Accounting Principles (GAAP) - Uploading Evidence */
+
+position: absolute;
+width: 45px;
+height: 19px;
+left: 24px;
+bottom: 20px;
+
+/* Section header - Medium 16 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Actions */
+
+position: absolute;
+width: 106px;
+height: 24px;
+left: 770px;
+top: 16px;
+
+
+
+/* Button-icon-sm-alpha */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 24px;
+top: 16px;
+
+
+
+/* Icons / close -alpha */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 17.89%;
+right: 17.89%;
+top: 17.89%;
+bottom: 17.89%;
+
+/* Primary/Charcoal gray */
+background: #333F48;
+
+
+/* Button-alpha */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+gap: 10px;
+
+position: absolute;
+width: 62px;
+right: 68px;
+top: 28.07%;
+bottom: 29.82%;
+
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Action */
+
+width: 46px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* save view */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+position: absolute;
+width: 111px;
+height: 24px;
+left: 60px;
+top: 409px;
+
+
+
+/* Checkbox-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+width: 16px;
+height: 16px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Muted blue 25% */
+border: 1px solid rgba(99, 153, 174, 0.25);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Save This View */
+
+width: 81px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 99px;
+height: 16px;
+left: 60px;
+top: 381px;
+
+
+
+/* Action */
+
+width: 99px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* list */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+width: 852px;
+height: 240px;
+left: 60px;
+top: 100px;
+
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-dates-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Due Date */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* input */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* Dropdown-alpha */
+
+width: 326px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* .MASTERdropdown-alpha */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 28px;
+
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Select an option */
+
+position: absolute;
+left: 12px;
+right: 32px;
+top: 8px;
+bottom: 8px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Icons / arrow_drop_down -alpha */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 8px;
+top: 4px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* Calendar-alpha */
+
+width: 326px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* .MASTERcalendar_input-alpha */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 28px;
+
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* mm/dd/yyyy */
+
+position: absolute;
+left: 12px;
+right: 44px;
+top: 8px;
+bottom: 9px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Icons / calendar -alpha */
+
+position: absolute;
+width: 20px;
+right: 8px;
+top: 18.75%;
+bottom: 18.75%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 4.17%;
+bottom: 12.5%;
+
+/* Neutral/Charcoal gray 50% */
+background: rgba(51, 63, 72, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-action-bar-alpha */
+
+position: absolute;
+width: 900px;
+height: 65px;
+left: 36px;
+top: 451px;
+
+
+
+/* actions */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 144px;
+height: 32px;
+right: 24px;
+top: 17px;
+
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 37px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Action */
+
+width: 37px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button-alpha */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 12px;
+gap: 10px;
+
+display: none;
+width: 156px;
+height: 32px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Primary/Blue adjusted - primary */
+border: 1px solid #2D7698;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 12px;
+gap: 10px;
+
+width: 91px;
+height: 32px;
+
+/* Neutral/Muted blue 25% */
+background: rgba(99, 153, 174, 0.25);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Action */
+
+width: 67px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Neutral/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* hr */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 98.46%;
+
+/* Neutral/Light gray */
+background: #D0D3D4;
+opacity: 0.3;
+
+
+/* hr */
+
+position: absolute;
+height: 1px;
+left: 36px;
+right: 36px;
+bottom: 192px;
+
+/* Neutral/Light gray */
+background: #D0D3D4;
+opacity: 0.3;
+
+
+/* status=empty, dropdown=on, save this view=unchecked */
+
+position: absolute;
+width: 972px;
+height: 561px;
+left: 1003px;
+top: 5px;
+
+
+
+/* modal */
+
+position: absolute;
+width: 900px;
+height: 489px;
+left: 36px;
+top: 27px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Visual Design/Modal */
+box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 6px 3px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px rgba(0, 0, 0, 0.08);
+border-radius: 4px;
+
+
+/* filter_modal_header */
+
+position: absolute;
+width: 900px;
+height: 57px;
+left: 36px;
+top: 27px;
+
+
+
+/* hr */
+
+position: absolute;
+height: 1px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+
+/* Neutral/Light gray */
+background: #D0D3D4;
+opacity: 0.3;
+
+
+/* Generally Accepted Accounting Principles (GAAP) - Uploading Evidence */
+
+position: absolute;
+width: 45px;
+height: 19px;
+left: 24px;
+bottom: 20px;
+
+/* Section header - Medium 16 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Actions */
+
+position: absolute;
+width: 106px;
+height: 24px;
+left: 770px;
+top: 16px;
+
+
+
+/* Button-icon-sm-alpha */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 24px;
+top: 16px;
+
+
+
+/* Icons / close -alpha */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 17.89%;
+right: 17.89%;
+top: 17.89%;
+bottom: 17.89%;
+
+/* Primary/Charcoal gray */
+background: #333F48;
+
+
+/* Button-alpha */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+gap: 10px;
+
+position: absolute;
+width: 62px;
+right: 68px;
+top: 28.07%;
+bottom: 29.82%;
+
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Action */
+
+width: 46px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* save view */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+position: absolute;
+width: 111px;
+height: 24px;
+left: 60px;
+top: 409px;
+
+
+
+/* Checkbox-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+width: 16px;
+height: 16px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Muted blue 25% */
+border: 1px solid rgba(99, 153, 174, 0.25);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Save This View */
+
+width: 81px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 99px;
+height: 16px;
+left: 60px;
+top: 381px;
+
+
+
+/* Action */
+
+width: 99px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* list */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+width: 852px;
+height: 240px;
+left: 60px;
+top: 100px;
+
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+visibility: hidden;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-dates-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Due Date */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* input */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* Dropdown-alpha */
+
+width: 326px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* .MASTERdropdown-alpha */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 28px;
+
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Select an option */
+
+position: absolute;
+left: 12px;
+right: 32px;
+top: 8px;
+bottom: 8px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Icons / arrow_drop_down -alpha */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 8px;
+top: 4px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* Calendar-alpha */
+
+width: 326px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* .MASTERcalendar_input-alpha */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 28px;
+
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* mm/dd/yyyy */
+
+position: absolute;
+left: 12px;
+right: 44px;
+top: 8px;
+bottom: 9px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Icons / calendar -alpha */
+
+position: absolute;
+width: 20px;
+right: 8px;
+top: 18.75%;
+bottom: 18.75%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 4.17%;
+bottom: 12.5%;
+
+/* Neutral/Charcoal gray 50% */
+background: rgba(51, 63, 72, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-action-bar-alpha */
+
+position: absolute;
+width: 900px;
+height: 65px;
+left: 36px;
+bottom: 45px;
+
+
+
+/* actions */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 144px;
+height: 32px;
+right: 24px;
+top: 17px;
+
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 37px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Action */
+
+width: 37px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button-alpha */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 12px;
+gap: 10px;
+
+display: none;
+width: 156px;
+height: 32px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Primary/Blue adjusted - primary */
+border: 1px solid #2D7698;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 12px;
+gap: 10px;
+
+width: 91px;
+height: 32px;
+
+/* Neutral/Muted blue 25% */
+background: rgba(99, 153, 174, 0.25);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Action */
+
+width: 67px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Neutral/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* hr */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 98.46%;
+
+/* Neutral/Light gray */
+background: #D0D3D4;
+opacity: 0.3;
+
+
+/* hr */
+
+position: absolute;
+height: 1px;
+left: 36px;
+right: 36px;
+bottom: 192px;
+
+/* Neutral/Light gray */
+background: #D0D3D4;
+opacity: 0.3;
+
+
+/* dropdown_menu/filter_dropdown */
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 196px;
+top: 152px;
+
+
+
+/* input/dropdown+input */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0%;
+bottom: 0%;
+
+
+
+/* input/dropdown+input */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* MASTER/input+dropdown */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Functional & semantic/Blue */
+border: 1px solid #009CBD;
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_up -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 37.5%;
+bottom: 41.67%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* Menu */
+
+position: absolute;
+visibility: hidden;
+left: 12.57%;
+right: 0%;
+top: 125%;
+bottom: -878.12%;
+
+
+
+/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 273px;
+left: 84px;
+right: 0px;
+top: 40px;
+
+/* Visual Design/White */
+background: #FFFFFF;
+/* Visual Design/Dropdown */
+box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 6px 3px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px rgba(0, 0, 0, 0.08);
+border-radius: 4px;
+
+
+/* select */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 4px;
+
+width: 584px;
+height: 37px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 14168 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 8px 12px;
+gap: 23px;
+
+width: 584px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Select All */
+
+margin: 0 auto;
+width: 51px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Visual Design/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Clear */
+
+margin: 0 auto;
+width: 29px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Visual Design/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* hr */
+
+width: 584px;
+height: 1px;
+
+/* Visual Design/Light Gray */
+background: #D0D3D4;
+opacity: 0.3;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* dropdown/component/menu_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 16px 2px 8px;
+gap: 8px;
+
+width: 584px;
+height: 28px;
+
+/* Visual Design/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* checkbox */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+width: 16px;
+height: 16px;
+
+/* Visual Design/White */
+background: #FFFFFF;
+/* Visual Design/Muted Blue 25% */
+border: 1px solid rgba(99, 153, 174, 0.25);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Option */
+
+width: 528px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: flex-end;
+
+/* Visual Design/Charcoal Gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* dropdown/component/menu_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 16px 2px 8px;
+gap: 8px;
+
+width: 584px;
+height: 28px;
+
+/* Visual Design/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 13977 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* graphic */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 4px;
+top: 4px;
+
+/* Visual Design/Blue adjusted - primary */
+background: #2D7698;
+/* Visual Design/Blue adjusted - primary */
+border: 1px solid #2D7698;
+border-radius: 4px;
+
+
+/* ic/suggested/check */
+
+position: absolute;
+width: 14px;
+height: 14px;
+left: 5px;
+top: 5px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 14.58%;
+right: 12.5%;
+top: 23.29%;
+bottom: 20.83%;
+
+/* Visual Design/White */
+background: #FFFFFF;
+
+
+/* Option */
+
+width: 528px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: flex-end;
+
+/* Visual Design/Charcoal Gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* dropdown/component/menu_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 16px 2px 8px;
+gap: 8px;
+
+width: 584px;
+height: 28px;
+
+/* Visual Design/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* checkbox */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+width: 16px;
+height: 16px;
+
+/* Visual Design/White */
+background: #FFFFFF;
+/* Visual Design/Muted Blue 25% */
+border: 1px solid rgba(99, 153, 174, 0.25);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Option */
+
+width: 528px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: flex-end;
+
+/* Visual Design/Charcoal Gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* dropdown/component/menu_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 16px 2px 8px;
+gap: 8px;
+
+width: 584px;
+height: 28px;
+
+/* Visual Design/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* graphic */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 4px;
+top: 4px;
+
+/* Visual Design/Blue adjusted - primary */
+background: #2D7698;
+/* Visual Design/Blue adjusted - primary */
+border: 1px solid #2D7698;
+border-radius: 4px;
+
+
+/* ic/suggested/check */
+
+position: absolute;
+width: 14px;
+height: 14px;
+left: 5px;
+top: 5px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 14.58%;
+right: 12.5%;
+top: 23.29%;
+bottom: 20.83%;
+
+/* Visual Design/White */
+background: #FFFFFF;
+
+
+/* Option */
+
+width: 528px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: flex-end;
+
+/* Visual Design/Charcoal Gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* dropdown/component/menu_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 16px 2px 8px;
+gap: 8px;
+
+width: 584px;
+height: 28px;
+
+/* Visual Design/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* checkbox */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+width: 16px;
+height: 16px;
+
+/* Visual Design/White */
+background: #FFFFFF;
+/* Visual Design/Muted Blue 25% */
+border: 1px solid rgba(99, 153, 174, 0.25);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Option */
+
+width: 528px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: flex-end;
+
+/* Visual Design/Charcoal Gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* dropdown/component/menu_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 16px 2px 8px;
+gap: 8px;
+
+width: 584px;
+height: 28px;
+
+background: rgba(0, 156, 189, 0.1);
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* checkbox */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+width: 16px;
+height: 16px;
+
+/* Visual Design/Blue 10% Opaque */
+background: #E5F5F8;
+/* Visual Design/Muted Blue 25% */
+border: 1px solid rgba(99, 153, 174, 0.25);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Option */
+
+width: 528px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: flex-end;
+
+/* Visual Design/Charcoal Gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* dropdown/component/menu_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 16px 2px 8px;
+gap: 8px;
+
+width: 584px;
+height: 28px;
+
+/* Visual Design/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* checkbox */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+width: 16px;
+height: 16px;
+
+/* Visual Design/White */
+background: #FFFFFF;
+/* Visual Design/Muted Blue 25% */
+border: 1px solid rgba(99, 153, 174, 0.25);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Option */
+
+width: 528px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: flex-end;
+
+/* Visual Design/Charcoal Gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Actions */
+
+width: 584px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* actions */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 100px;
+height: 24px;
+right: 12px;
+top: 8px;
+
+
+
+/* btn_text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 37px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* btn_text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 37px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Action */
+
+width: 37px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Visual Design/Charcoal Gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* btn */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 12px;
+gap: 10px;
+
+display: none;
+width: 156px;
+height: 32px;
+
+background: #FFFFFF;
+/* Visual Design/Blue adjusted - primary */
+border: 1px solid #2D7698;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+gap: 10px;
+
+width: 47px;
+height: 24px;
+
+/* Visual Design/Blue adjusted - primary */
+background: #2D7698;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Action */
+
+width: 31px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Wireframe/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* hr */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 97.5%;
+
+/* Visual Design/Light Gray */
+background: #D0D3D4;
+opacity: 0.3;
+
+
+/* scrollbar_panel */
+
+position: absolute;
+width: 4.15px;
+height: 152px;
+right: 4.14px;
+top: 77px;
+
+
+
+/* scrollbar */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Visual Design/Light Gray 50% */
+background: rgba(208, 211, 212, 0.5);
+mix-blend-mode: multiply;
+border-radius: 4px;
+
+
+/* dropdown_menu/standard */
+
+position: absolute;
+width: 584px;
+height: 356px;
+left: 280px;
+top: 134px;
+
+
+
+/* menu */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 16.15%;
+bottom: 5.2%;
+
+
+
+/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 8px 0px;
+
+position: absolute;
+height: 280px;
+left: 0px;
+right: 0px;
+top: 57.5px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Visual Design/Dropdown */
+box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 6px 3px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px rgba(0, 0, 0, 0.08);
+border-radius: 4px;
+
+
+/* select */
+
+width: 584px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Group 13601 */
+
+position: absolute;
+width: 560px;
+height: 16px;
+left: 12px;
+top: 4px;
+
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+right: 12px;
+top: 4px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 51px;
+height: 16px;
+left: 12px;
+top: 4px;
+
+
+
+/* Action */
+
+width: 51px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* hr */
+
+position: absolute;
+height: 1px;
+left: 0px;
+right: 1px;
+top: 28px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* Dropdown menu item-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 16px 2px 8px;
+gap: 8px;
+
+width: 584px;
+height: 28px;
+
+/* Neutral/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Checkbox-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+width: 16px;
+height: 16px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Muted blue 25% */
+border: 1px solid rgba(99, 153, 174, 0.25);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Option */
+
+width: 528px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: flex-end;
+
+/* Neutral/Charcoal gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Dropdown menu item-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 16px 2px 8px;
+gap: 8px;
+
+width: 584px;
+height: 28px;
+
+/* Neutral/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 13977 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* graphic */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 4px;
+top: 4px;
+
+/* Primary/Blue adjusted - primary */
+background: #2D7698;
+/* Primary/Blue adjusted - primary */
+border: 1px solid #2D7698;
+border-radius: 4px;
+
+
+/* ic/suggested/check */
+
+position: absolute;
+width: 14px;
+height: 14px;
+left: 5px;
+top: 5px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 14.58%;
+right: 12.5%;
+top: 23.29%;
+bottom: 20.83%;
+
+/* Neutral/White */
+background: #FFFFFF;
+
+
+/* Option */
+
+width: 528px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: flex-end;
+
+/* Neutral/Charcoal gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Dropdown menu item-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 16px 2px 8px;
+gap: 8px;
+
+width: 584px;
+height: 28px;
+
+/* Neutral/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Checkbox-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+width: 16px;
+height: 16px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Muted blue 25% */
+border: 1px solid rgba(99, 153, 174, 0.25);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Option */
+
+width: 528px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: flex-end;
+
+/* Neutral/Charcoal gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Dropdown menu item-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 16px 2px 8px;
+gap: 8px;
+
+width: 584px;
+height: 28px;
+
+/* Neutral/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 13977 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* graphic */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 4px;
+top: 4px;
+
+/* Primary/Blue adjusted - primary */
+background: #2D7698;
+/* Primary/Blue adjusted - primary */
+border: 1px solid #2D7698;
+border-radius: 4px;
+
+
+/* ic/suggested/check */
+
+position: absolute;
+width: 14px;
+height: 14px;
+left: 5px;
+top: 5px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 14.58%;
+right: 12.5%;
+top: 23.29%;
+bottom: 20.83%;
+
+/* Neutral/White */
+background: #FFFFFF;
+
+
+/* Option */
+
+width: 528px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: flex-end;
+
+/* Neutral/Charcoal gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Dropdown menu item-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 16px 2px 8px;
+gap: 8px;
+
+width: 584px;
+height: 28px;
+
+/* Neutral/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Checkbox-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+width: 16px;
+height: 16px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Muted blue 25% */
+border: 1px solid rgba(99, 153, 174, 0.25);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Option */
+
+width: 528px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: flex-end;
+
+/* Neutral/Charcoal gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Dropdown menu item-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 16px 2px 8px;
+gap: 8px;
+
+width: 584px;
+height: 28px;
+
+/* Functional & semantic/Blue 10% */
+background: rgba(0, 156, 189, 0.1);
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Checkbox-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+width: 16px;
+height: 16px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+/* Neutral/Muted blue 25% */
+border: 1px solid rgba(99, 153, 174, 0.25);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Option */
+
+width: 528px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: flex-end;
+
+/* Neutral/Charcoal gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Dropdown menu item-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 16px 2px 8px;
+gap: 8px;
+
+width: 584px;
+height: 28px;
+
+/* Neutral/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Checkbox-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+width: 16px;
+height: 16px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Muted blue 25% */
+border: 1px solid rgba(99, 153, 174, 0.25);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Option */
+
+width: 528px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: flex-end;
+
+/* Neutral/Charcoal gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Dropdown menu item-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 16px 2px 8px;
+gap: 8px;
+
+display: none;
+width: 284px;
+height: 28px;
+
+/* Neutral/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Actions */
+
+width: 584px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* actions */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 97px;
+height: 24px;
+right: 12px;
+top: 8px;
+
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 37px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Action */
+
+width: 37px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+gap: 10px;
+
+width: 44px;
+height: 24px;
+
+/* Primary/Blue adjusted - primary */
+background: #2D7698;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Action */
+
+width: 28px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Neutral/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* hr */
+
+position: absolute;
+height: 1px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+/* Neutral/Light gray */
+background: #D0D3D4;
+opacity: 0.3;
+
+
+/* System / Scroll bar -alpha */
+
+position: absolute;
+width: 4px;
+height: 114px;
+right: 6px;
+top: 104px;
+
+
+
+/* scrollbar */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+mix-blend-mode: multiply;
+border-radius: 4px;
+
+
+/* status=filled, dropdown=off, save this view=unchecked */
+
+position: absolute;
+width: 972px;
+height: 621px;
+left: 12px;
+top: 567px;
+
+
+
+/* modal */
+
+position: absolute;
+width: 900px;
+height: 549px;
+left: 36px;
+top: 27px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Visual Design/Modal */
+box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 6px 3px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px rgba(0, 0, 0, 0.08);
+border-radius: 4px;
+
+
+/* filter_modal_header */
+
+position: absolute;
+width: 900px;
+height: 57px;
+left: 36px;
+top: 27px;
+
+
+
+/* hr */
+
+position: absolute;
+height: 1px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+
+/* Neutral/Light gray */
+background: #D0D3D4;
+opacity: 0.3;
+
+
+/* Generally Accepted Accounting Principles (GAAP) - Uploading Evidence */
+
+position: absolute;
+width: 45px;
+height: 19px;
+left: 24px;
+bottom: 20px;
+
+/* Section header - Medium 16 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Actions */
+
+position: absolute;
+width: 106px;
+height: 24px;
+left: 770px;
+top: 16px;
+
+
+
+/* Button-icon-sm-alpha */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 24px;
+top: 16px;
+
+
+
+/* Icons / close -alpha */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 17.89%;
+right: 17.89%;
+top: 17.89%;
+bottom: 17.89%;
+
+/* Primary/Charcoal gray */
+background: #333F48;
+
+
+/* Button-alpha */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+gap: 10px;
+
+position: absolute;
+width: 62px;
+right: 68px;
+top: 28.07%;
+bottom: 29.82%;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Primary/Blue adjusted - primary */
+border: 1px solid #2D7698;
+border-radius: 4px;
+
+
+/* Action */
+
+width: 46px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* save view */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+position: absolute;
+width: 111px;
+height: 24px;
+left: 60px;
+top: 469px;
+
+
+
+/* Checkbox-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+width: 16px;
+height: 16px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Muted blue 25% */
+border: 1px solid rgba(99, 153, 174, 0.25);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Save This View */
+
+width: 81px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 99px;
+height: 16px;
+left: 60px;
+top: 445px;
+
+
+
+/* Action */
+
+width: 99px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* list */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+width: 852px;
+height: 304px;
+left: 60px;
+top: 100px;
+
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 668px;
+height: 64px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* tags */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 668px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Chip-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 75px;
+height: 24px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Customer Team */
+
+width: 43px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / cancel -alpha */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Muted blue */
+background: #6399AE;
+
+
+/* Chip-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 75px;
+height: 24px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Customer Team */
+
+width: 43px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / cancel -alpha */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Muted blue */
+background: #6399AE;
+
+
+/* Chip-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 75px;
+height: 24px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Customer Team */
+
+width: 43px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / cancel -alpha */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Muted blue */
+background: #6399AE;
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 668px;
+height: 64px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* tags */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 668px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Chip-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 75px;
+height: 24px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Customer Team */
+
+width: 43px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / cancel -alpha */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Muted blue */
+background: #6399AE;
+
+
+/* Chip-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 75px;
+height: 24px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Customer Team */
+
+width: 43px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / cancel -alpha */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Muted blue */
+background: #6399AE;
+
+
+/* Chip-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 75px;
+height: 24px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Customer Team */
+
+width: 43px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / cancel -alpha */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Muted blue */
+background: #6399AE;
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-dates-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Due Date */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* input */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* Dropdown-alpha */
+
+width: 326px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* .MASTERdropdown-alpha */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 28px;
+
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Select an option */
+
+position: absolute;
+left: 12px;
+right: 32px;
+top: 8px;
+bottom: 8px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Icons / arrow_drop_down -alpha */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 8px;
+top: 4px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* Calendar-alpha */
+
+width: 326px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* .MASTERcalendar_input-alpha */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 28px;
+
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* mm/dd/yyyy */
+
+position: absolute;
+left: 12px;
+right: 44px;
+top: 8px;
+bottom: 9px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Icons / calendar -alpha */
+
+position: absolute;
+width: 20px;
+right: 8px;
+top: 18.75%;
+bottom: 18.75%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 4.17%;
+bottom: 12.5%;
+
+/* Neutral/Charcoal gray 50% */
+background: rgba(51, 63, 72, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-action-bar-alpha */
+
+position: absolute;
+width: 900px;
+height: 65px;
+left: 36px;
+top: 511px;
+
+
+
+/* actions */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 144px;
+height: 32px;
+right: 24px;
+top: 17px;
+
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 37px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Action */
+
+width: 37px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button-alpha */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 12px;
+gap: 10px;
+
+display: none;
+width: 156px;
+height: 32px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Primary/Blue adjusted - primary */
+border: 1px solid #2D7698;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 12px;
+gap: 10px;
+
+width: 91px;
+height: 32px;
+
+/* Primary/Blue adjusted - primary */
+background: #2D7698;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Action */
+
+width: 67px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Neutral/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* hr */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 98.46%;
+
+/* Neutral/Light gray */
+background: #D0D3D4;
+opacity: 0.3;
+
+
+/* hr */
+
+position: absolute;
+height: 1px;
+left: 36px;
+right: 36px;
+bottom: 188px;
+
+/* Neutral/Light gray */
+background: #D0D3D4;
+opacity: 0.3;
+
+
+/* status=filled, dropdown=off, save this view=checked */
+
+position: absolute;
+width: 972px;
+height: 729px;
+left: 14px;
+top: 1209px;
+
+
+
+/* modal */
+
+position: absolute;
+width: 900px;
+height: 657px;
+left: 36px;
+top: 27px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Visual Design/Modal */
+box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 6px 3px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px rgba(0, 0, 0, 0.08);
+border-radius: 4px;
+
+
+/* container */
+
+position: absolute;
+width: 852px;
+height: 96px;
+left: 60px;
+top: 507px;
+
+/* Primary/New gray */
+background: #E1E9F0;
+opacity: 0.4;
+border-radius: 4px;
+
+
+/* save view */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+position: absolute;
+width: 111px;
+height: 24px;
+left: 60px;
+top: 473px;
+
+
+
+/* Checkbox-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* graphic */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 4px;
+top: 4px;
+
+/* Primary/Blue adjusted - primary */
+background: #2D7698;
+/* Primary/Blue adjusted - primary */
+border: 1px solid #2D7698;
+border-radius: 4px;
+
+
+/* ic/suggested/check */
+
+position: absolute;
+width: 14px;
+height: 14px;
+left: 5px;
+top: 5px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 14.58%;
+right: 12.5%;
+top: 23.29%;
+bottom: 20.83%;
+
+/* Neutral/White */
+background: #FFFFFF;
+
+
+/* Save This View */
+
+width: 81px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 99px;
+height: 16px;
+left: 60px;
+top: 445px;
+
+
+
+/* Action */
+
+width: 99px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* list */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+width: 852px;
+height: 304px;
+left: 60px;
+top: 100px;
+
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 668px;
+height: 64px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* tags */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 668px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Chip-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 75px;
+height: 24px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Customer Team */
+
+width: 43px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / cancel -alpha */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Muted blue */
+background: #6399AE;
+
+
+/* Chip-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 75px;
+height: 24px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Customer Team */
+
+width: 43px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / cancel -alpha */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Muted blue */
+background: #6399AE;
+
+
+/* Chip-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 75px;
+height: 24px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Customer Team */
+
+width: 43px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / cancel -alpha */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Muted blue */
+background: #6399AE;
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 668px;
+height: 64px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* tags */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 668px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Chip-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 75px;
+height: 24px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Customer Team */
+
+width: 43px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / cancel -alpha */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Muted blue */
+background: #6399AE;
+
+
+/* Chip-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 75px;
+height: 24px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Customer Team */
+
+width: 43px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / cancel -alpha */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Muted blue */
+background: #6399AE;
+
+
+/* Chip-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 75px;
+height: 24px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Customer Team */
+
+width: 43px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / cancel -alpha */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Muted blue */
+background: #6399AE;
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-dates-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Due Date */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* input */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* Dropdown-alpha */
+
+width: 326px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* .MASTERdropdown-alpha */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 28px;
+
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Select an option */
+
+position: absolute;
+left: 12px;
+right: 32px;
+top: 8px;
+bottom: 8px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Icons / arrow_drop_down -alpha */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 8px;
+top: 4px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* Calendar-alpha */
+
+width: 326px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* .MASTERcalendar_input-alpha */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 28px;
+
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* mm/dd/yyyy */
+
+position: absolute;
+left: 12px;
+right: 44px;
+top: 8px;
+bottom: 9px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Icons / calendar -alpha */
+
+position: absolute;
+width: 20px;
+right: 8px;
+top: 18.75%;
+bottom: 18.75%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 4.17%;
+bottom: 12.5%;
+
+/* Neutral/Charcoal gray 50% */
+background: rgba(51, 63, 72, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* form */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 804px;
+height: 80px;
+left: 84px;
+top: 523px;
+
+
+
+/* Text input-alpha */
+
+width: 394px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* .MASTERinput_label-alpha */
+
+position: absolute;
+height: 16px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+
+
+/* Label */
+
+position: absolute;
+left: 0px;
+right: 28px;
+top: 0%;
+bottom: 0%;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* .MASTERinput-alpha */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 20px;
+bottom: 28px;
+
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Enter text */
+
+position: absolute;
+left: 12px;
+right: 12px;
+top: 8px;
+bottom: 10px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* input/dropdown */
+
+width: 394px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* .MASTERdropdown-alpha */
+
+position: absolute;
+height: 32px;
+left: 0px;
+right: 0px;
+top: 20px;
+
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Select an option */
+
+position: absolute;
+left: 12px;
+right: 32px;
+top: 8px;
+bottom: 8px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Icons / arrow_drop_down -alpha */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 8px;
+top: 4px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* .MASTERinput_label-alpha */
+
+position: absolute;
+height: 16px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+
+
+/* Label */
+
+position: absolute;
+left: 0px;
+right: 28px;
+top: 0%;
+bottom: 0%;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Button-icon-sm-alpha */
+
+position: absolute;
+width: 16px;
+height: 16px;
+right: 0px;
+top: 0px;
+
+
+
+/* Icons / info -alpha */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Charcoal gray 50% */
+background: rgba(51, 63, 72, 0.5);
+
+
+/* filter_modal_header */
+
+position: absolute;
+width: 900px;
+height: 57px;
+left: 36px;
+top: 27px;
+
+
+
+/* hr */
+
+position: absolute;
+height: 1px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+
+/* Neutral/Light gray */
+background: #D0D3D4;
+opacity: 0.3;
+
+
+/* Generally Accepted Accounting Principles (GAAP) - Uploading Evidence */
+
+position: absolute;
+width: 45px;
+height: 19px;
+left: 24px;
+bottom: 20px;
+
+/* Section header - Medium 16 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Actions */
+
+position: absolute;
+width: 106px;
+height: 24px;
+left: 770px;
+top: 16px;
+
+
+
+/* Button-icon-sm-alpha */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 24px;
+top: 16px;
+
+
+
+/* Icons / close -alpha */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 17.89%;
+right: 17.89%;
+top: 17.89%;
+bottom: 17.89%;
+
+/* Primary/Charcoal gray */
+background: #333F48;
+
+
+/* Button-alpha */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+gap: 10px;
+
+position: absolute;
+width: 62px;
+right: 68px;
+top: 28.07%;
+bottom: 29.82%;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Primary/Blue adjusted - primary */
+border: 1px solid #2D7698;
+border-radius: 4px;
+
+
+/* Action */
+
+width: 46px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-action-bar-alpha */
+
+position: absolute;
+width: 900px;
+height: 65px;
+left: 36px;
+top: 619px;
+
+
+
+/* actions */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 196px;
+height: 32px;
+right: 24px;
+top: 17px;
+
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 37px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Action */
+
+width: 37px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button-alpha */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 12px;
+gap: 10px;
+
+display: none;
+width: 156px;
+height: 32px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Primary/Blue adjusted - primary */
+border: 1px solid #2D7698;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 12px;
+gap: 10px;
+
+width: 143px;
+height: 32px;
+
+/* Primary/Blue adjusted - primary */
+background: #2D7698;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Action */
+
+width: 119px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Neutral/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* hr */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 98.46%;
+
+/* Neutral/Light gray */
+background: #D0D3D4;
+opacity: 0.3;
+
+
+/* hr */
+
+position: absolute;
+height: 1px;
+left: 36px;
+right: 36px;
+bottom: 296px;
+
+/* Neutral/Light gray */
+background: #D0D3D4;
+opacity: 0.3;
+
+
+/* status=max_height, dropdown=off, save this view=checked */
+
+position: absolute;
+width: 972px;
+height: 757px;
+left: 1009px;
+top: 567px;
+
+
+
+/* modal */
+
+position: absolute;
+width: 900px;
+height: 685px;
+left: 36px;
+top: 27px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Visual Design/Modal */
+box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 6px 3px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px rgba(0, 0, 0, 0.08);
+border-radius: 4px;
+
+
+/* container */
+
+position: absolute;
+width: 852px;
+height: 96px;
+left: 60px;
+top: 535px;
+
+/* Primary/New gray */
+background: #E1E9F0;
+opacity: 0.4;
+border-radius: 4px;
+
+
+/* form */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 804px;
+height: 80px;
+left: 84px;
+top: 551px;
+
+
+
+/* Text input-alpha */
+
+width: 394px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* .MASTERinput_label-alpha */
+
+position: absolute;
+height: 16px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+
+
+/* Label */
+
+position: absolute;
+left: 0px;
+right: 28px;
+top: 0%;
+bottom: 0%;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* .MASTERinput-alpha */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 20px;
+bottom: 28px;
+
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Enter text */
+
+position: absolute;
+left: 12px;
+right: 12px;
+top: 8px;
+bottom: 10px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Dropdown-alpha */
+
+width: 394px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* .MASTERdropdown-alpha */
+
+position: absolute;
+height: 32px;
+left: 0px;
+right: 0px;
+top: 20px;
+
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Select an option */
+
+position: absolute;
+left: 12px;
+right: 32px;
+top: 8px;
+bottom: 8px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Icons / arrow_drop_down -alpha */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 8px;
+top: 4px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* .MASTERinput_label-alpha */
+
+position: absolute;
+height: 16px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+
+
+/* Label */
+
+position: absolute;
+left: 0px;
+right: 28px;
+top: 0%;
+bottom: 0%;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Button-icon-sm-alpha */
+
+position: absolute;
+width: 16px;
+height: 16px;
+right: 0px;
+top: 0px;
+
+
+
+/* Icons / info -alpha */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Charcoal gray 50% */
+background: rgba(51, 63, 72, 0.5);
+
+
+/* save view */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+position: absolute;
+width: 111px;
+height: 24px;
+left: 60px;
+top: 501px;
+
+
+
+/* Checkbox-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* graphic */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 4px;
+top: 4px;
+
+/* Primary/Blue adjusted - primary */
+background: #2D7698;
+/* Primary/Blue adjusted - primary */
+border: 1px solid #2D7698;
+border-radius: 4px;
+
+
+/* ic/suggested/check */
+
+position: absolute;
+width: 14px;
+height: 14px;
+left: 5px;
+top: 5px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 14.58%;
+right: 12.5%;
+top: 23.29%;
+bottom: 20.83%;
+
+/* Neutral/White */
+background: #FFFFFF;
+
+
+/* Save This View */
+
+width: 81px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 99px;
+height: 16px;
+left: 60px;
+top: 473px;
+
+
+
+/* Action */
+
+width: 99px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* filter_modal_header */
+
+position: absolute;
+width: 900px;
+height: 57px;
+left: 36px;
+top: 27px;
+
+
+
+/* hr */
+
+position: absolute;
+height: 1px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+
+/* Neutral/Light gray */
+background: #D0D3D4;
+opacity: 0.3;
+
+
+/* Generally Accepted Accounting Principles (GAAP) - Uploading Evidence */
+
+position: absolute;
+width: 45px;
+height: 19px;
+left: 24px;
+bottom: 20px;
+
+/* Section header - Medium 16 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Actions */
+
+position: absolute;
+width: 106px;
+height: 24px;
+left: 770px;
+top: 16px;
+
+
+
+/* Button-icon-sm-alpha */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 24px;
+top: 16px;
+
+
+
+/* Icons / close -alpha */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 17.89%;
+right: 17.89%;
+top: 17.89%;
+bottom: 17.89%;
+
+/* Primary/Charcoal gray */
+background: #333F48;
+
+
+/* Button-alpha */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+gap: 10px;
+
+position: absolute;
+width: 62px;
+right: 68px;
+top: 28.07%;
+bottom: 29.82%;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Primary/Blue adjusted - primary */
+border: 1px solid #2D7698;
+border-radius: 4px;
+
+
+/* Action */
+
+width: 46px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* hr */
+
+position: absolute;
+height: 1px;
+left: 36px;
+right: 36px;
+bottom: 296px;
+
+/* Neutral/Light gray */
+background: #D0D3D4;
+opacity: 0.3;
+
+
+/* .modal-action-bar-alpha */
+
+position: absolute;
+width: 900px;
+height: 65px;
+left: 36px;
+top: 647px;
+
+
+
+/* actions */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 196px;
+height: 32px;
+right: 24px;
+top: 17px;
+
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 37px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Action */
+
+width: 37px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button-alpha */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 12px;
+gap: 10px;
+
+display: none;
+width: 156px;
+height: 32px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Primary/Blue adjusted - primary */
+border: 1px solid #2D7698;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 12px;
+gap: 10px;
+
+width: 143px;
+height: 32px;
+
+/* Primary/Blue adjusted - primary */
+background: #2D7698;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Action */
+
+width: 119px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Neutral/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* hr */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 98.46%;
+
+/* Neutral/Light gray */
+background: #D0D3D4;
+opacity: 0.3;
+
+
+/* list */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+width: 852px;
+height: 356px;
+left: 57px;
+top: 100px;
+
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 668px;
+height: 64px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* tags */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 668px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Chip-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 75px;
+height: 24px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Customer Team */
+
+width: 43px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / cancel -alpha */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Muted blue */
+background: #6399AE;
+
+
+/* Chip-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 75px;
+height: 24px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Customer Team */
+
+width: 43px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / cancel -alpha */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Muted blue */
+background: #6399AE;
+
+
+/* Chip-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 75px;
+height: 24px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Customer Team */
+
+width: 43px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / cancel -alpha */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Muted blue */
+background: #6399AE;
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 668px;
+height: 64px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* tags */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 668px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Chip-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 75px;
+height: 24px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Customer Team */
+
+width: 43px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / cancel -alpha */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Muted blue */
+background: #6399AE;
+
+
+/* Chip-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 75px;
+height: 24px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Customer Team */
+
+width: 43px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / cancel -alpha */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Muted blue */
+background: #6399AE;
+
+
+/* Chip-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 75px;
+height: 24px;
+
+/* Functional & semantic/Blue 10% opaque */
+background: #E5F5F8;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Customer Team */
+
+width: 43px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / cancel -alpha */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/Muted blue */
+background: #6399AE;
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+/* Body - Medium 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-dates-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Due Date */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* input */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* Dropdown-alpha */
+
+width: 326px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* .MASTERdropdown-alpha */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 28px;
+
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Select an option */
+
+position: absolute;
+left: 12px;
+right: 32px;
+top: 8px;
+bottom: 8px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Icons / arrow_drop_down -alpha */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 8px;
+top: 4px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* Calendar-alpha */
+
+width: 326px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* .MASTERcalendar_input-alpha */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 28px;
+
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* mm/dd/yyyy */
+
+position: absolute;
+left: 12px;
+right: 44px;
+top: 8px;
+bottom: 9px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Icons / calendar -alpha */
+
+position: absolute;
+width: 20px;
+right: 8px;
+top: 18.75%;
+bottom: 18.75%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 4.17%;
+bottom: 12.5%;
+
+/* Neutral/Charcoal gray 50% */
+background: rgba(51, 63, 72, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* .modal-filter-add-chips-alpha */
+
+width: 852px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Frameworks */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: 0px;
+top: 8px;
+
+/* Sub header - Medium 14 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+
+/* Dropdown+input-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 668px;
+height: 32px;
+left: 136px;
+top: 0px;
+
+
+
+/* .MASTERinput+dropdown-alpha */
+
+width: 668px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* input */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Light gray 50% */
+border: 1px solid rgba(208, 211, 212, 0.5);
+border-radius: 4px;
+
+
+/* Add Frameworks */
+
+position: absolute;
+height: 14px;
+left: 97px;
+right: 12px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Charcoal gray 50% */
+color: rgba(51, 63, 72, 0.5);
+
+
+
+/* Frame 14098 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 12px;
+top: 4px;
+
+
+
+/* Include */
+
+width: 42px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons / arrow_drop_down -alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* Neutral/Charcoal gray 80% */
+background: rgba(51, 63, 72, 0.8);
+
+
+/* vr */
+
+position: absolute;
+width: 1px;
+height: 30px;
+left: 84px;
+top: 1px;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+
+
+/* Button-text-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 29px;
+height: 16px;
+left: 823px;
+top: 8px;
+
+
+
+/* Action */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: right;
+
+/* Neutral/Light gray */
+color: #D0D3D4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* System / Scroll bar -alpha */
+
+position: absolute;
+width: 6px;
+height: 227px;
+left: 919px;
+top: calc(50% - 227px/2 - 165px);
+
+
+
+/* scrollbar */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/Light gray 50% */
+background: rgba(208, 211, 212, 0.5);
+mix-blend-mode: multiply;
+border-radius: 4px;
+
+
+/* shadow */
+
+position: absolute;
+width: 900px;
+height: 40px;
+left: 36px;
+top: 420px;
+
+background: linear-gradient(180deg, rgba(208, 211, 212, 0) 0%, rgba(208, 211, 212, 0.3) 100%);

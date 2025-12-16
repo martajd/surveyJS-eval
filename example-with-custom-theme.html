@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SurveyJS with Custom Design System Theme</title>
+    <meta charset="utf-8">
+    <link href="https://unpkg.com/survey-core/survey-core.min.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="https://unpkg.com/survey-core/survey.core.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/survey-js-ui/survey-js-ui.min.js"></script>
+    <style>
+        body {
+            font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+            margin: 0;
+        }
+
+        #surveyContainer {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        /* Custom theme styles matching your design system */
+        /* Modal panel styling */
+        .sjs-window {
+            box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 6px 3px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px rgba(0, 0, 0, 0.08);
+            border-radius: 4px;
+            background-color: #FFFFFF;
+        }
+
+        /* Primary buttons */
+        .sjs-btn-primary {
+            background-color: #2D7698;
+            border-color: #2D7698;
+            color: #FFFFFF;
+            border-radius: 4px;
+            font-weight: 500;
+            font-size: 12px;
+            padding: 8px 12px;
+        }
+
+        .sjs-btn-primary:hover {
+            background-color: #245a7e;
+            border-color: #245a7e;
+        }
+
+        /* Secondary/Outline buttons */
+        .sjs-btn {
+            background-color: #FFFFFF;
+            border: 1px solid #D0D3D4;
+            color: #333F48;
+            border-radius: 4px;
+            font-weight: 500;
+            font-size: 12px;
+        }
+
+        .sjs-btn:hover {
+            background-color: #F0F9FB;
+            border-color: #2D7698;
+        }
+
+        /* Input fields */
+        .sjs-input,
+        .sjs-dropdown-modern,
+        .sjs-text {
+            border: 1px solid rgba(208, 211, 212, 0.5);
+            border-radius: 4px;
+            background-color: #FFFFFF;
+            font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+            font-size: 12px;
+            color: #333F48;
+        }
+
+        .sjs-input:hover,
+        .sjs-dropdown-modern:hover,
+        .sjs-text:hover {
+            border-color: rgba(208, 211, 212, 0.8);
+        }
+
+        .sjs-input:focus,
+        .sjs-dropdown-modern:focus,
+        .sjs-text:focus {
+            border-color: #2D7698;
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(45, 118, 152, 0.1);
+        }
+
+        /* Chips/Tags */
+        .sjs-chip {
+            background-color: #E5F5F8;
+            border: 1px solid rgba(99, 153, 174, 0.25);
+            border-radius: 4px;
+            color: #2D7698;
+            font-weight: 500;
+            font-size: 12px;
+        }
+
+        /* Checkboxes */
+        .sjs-checkbox {
+            border: 1px solid rgba(99, 153, 174, 0.25);
+            border-radius: 4px;
+            background-color: #FFFFFF;
+        }
+
+        .sjs-checkbox input:checked {
+            background-color: #2D7698;
+            border-color: #2D7698;
+        }
+
+        /* Headers/Titles */
+        .sjs-question-title {
+            font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            color: #333F48;
+        }
+
+        /* Borders and Dividers */
+        .sjs-panel {
+            border: 1px solid rgba(208, 211, 212, 0.5);
+            border-radius: 4px;
+        }
+
+        /* Links */
+        .sjs-link {
+            color: #2D7698;
+            text-decoration: none;
+        }
+
+        .sjs-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="surveyContainer"></div>
+
+    <script>
+        // Sample survey definition
+        const surveyJson = {
+            "title": "Filter Survey - Custom Styled",
+            "elements": [
+                {
+                    "type": "dropdown",
+                    "name": "frameworks",
+                    "title": "Frameworks",
+                    "choices": ["React", "Angular", "Vue", "Svelte"],
+                    "hasOther": true,
+                    "isRequired": true
+                },
+                {
+                    "type": "checkbox",
+                    "name": "controls",
+                    "title": "Controls",
+                    "choices": ["Form Controls", "Data Controls", "Navigation Controls"]
+                },
+                {
+                    "type": "multiselect",
+                    "name": "owners",
+                    "title": "Owners",
+                    "choices": ["Owner 1", "Owner 2", "Owner 3", "Owner 4"]
+                },
+                {
+                    "type": "tagbox",
+                    "name": "tags",
+                    "title": "Tags",
+                    "choices": ["Important", "Urgent", "Review", "Done"]
+                },
+                {
+                    "type": "text",
+                    "name": "dueDateFrom",
+                    "title": "Due Date From",
+                    "inputType": "date"
+                },
+                {
+                    "type": "text",
+                    "name": "dueDateTo",
+                    "title": "Due Date To",
+                    "inputType": "date"
+                }
+            ],
+            "showProgressBar": "off",
+            "startSurveyText": "Apply Filters",
+            "completeText": "Apply Filters"
+        };
+
+        // Create survey model
+        const survey = new Survey.Model(surveyJson);
+
+        // Apply custom CSS variables for theming
+        survey.css = {
+            // Custom CSS classes if needed
+        };
+
+        // Handle survey completion
+        survey.onComplete.add(function (sender) {
+            console.log("Survey results:", sender.data);
+            alert("Filters applied:\n" + JSON.stringify(sender.data, null, 2));
+        });
+
+        // Render survey
+        document.addEventListener("DOMContentLoaded", function () {
+            survey.render(document.getElementById("surveyContainer"));
+        });
+    </script>
+</body>
+</html>

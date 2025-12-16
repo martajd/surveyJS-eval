@@ -5,7 +5,7 @@
   flex-direction: column;
   box-sizing: border-box;
   background: linear-gradient(135deg, #c7eaf8 0%, #d4f0f9 100%);
-  padding: 40px;
+  padding: 8px;
   justify-content: center;
   align-items: center;
 }
@@ -13,14 +13,13 @@
 .survey-container {
   flex: 1;
   overflow-y: auto;
-  padding: 32px;
+  padding: 16px;
   background-color: white;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   width: 100%;
-  max-width: 600px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.08);
   font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
@@ -100,45 +99,43 @@
 }
 
 /* SurveyJS styling adjustments - Figma design theme */
+:host ::ng-deep .sv_container,
+:host ::ng-deep .sv_root_modern,
+:host ::ng-deep survey,
+:host ::ng-deep .sv_body,
+:host ::ng-deep .sv_p_root,
+:host ::ng-deep .sv_page {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
 :host ::ng-deep .sv_container {
   font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
-  background-color: transparent;
 }
 
-:host ::ng-deep .sv_root_modern {
-  background-color: transparent;
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
-}
-
-:host ::ng-deep survey {
-  width: 100%;
-}
-
-/* Question styling */
+/* Question styling - COMPACT */
 :host ::ng-deep .sv_q {
-  margin-bottom: 24px;
+  margin-bottom: 8px;
   padding: 0;
 }
 
 :host ::ng-deep .sv_q_title {
   font-weight: 600;
   color: #333333;
-  margin-bottom: 12px;
+  margin-bottom: 4px;
   font-size: 14px;
   letter-spacing: 0.3px;
 }
 
-/* Input fields */
+/* Input fields - COMPACT */
 :host ::ng-deep .sv_inp {
   border: 1px solid #d0d0d0;
   border-radius: 4px;
-  padding: 10px 12px;
-  font-size: 14px;
+  padding: 6px 8px;
+  font-size: 13px;
   font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   color: #333333;
   background-color: #ffffff;
@@ -155,18 +152,18 @@
   color: #999999;
 }
 
-/* Buttons */
+/* Buttons - COMPACT */
 :host ::ng-deep .sv_next_btn,
 :host ::ng-deep .sv_btn_complete,
 :host ::ng-deep .sv_btn {
   background-color: #2d7698;
   color: white;
-  padding: 10px 24px;
+  padding: 6px 16px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   transition: background-color 0.2s ease;
 }
@@ -186,14 +183,14 @@
 :host ::ng-deep .sv_prev_btn {
   background-color: #999999;
   color: white;
-  padding: 10px 24px;
+  padding: 6px 16px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  margin-right: 12px;
+  margin-right: 8px;
   transition: background-color 0.2s ease;
 }
 

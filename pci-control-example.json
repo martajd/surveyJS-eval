@@ -1,0 +1,98 @@
+{
+  "title": "PCI DSS Control Assessment - Example",
+  "pages": [
+    {
+      "name": "control_3_6_1_4",
+      "elements": [
+        {
+          "type": "html",
+          "name": "control_header",
+          "html": "<p><strong>3.6.1.4</strong> Cryptographic keys are stored in the fewest possible locations.</p>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "assessment_status",
+          "title": "Assessment Findings",
+          "choices": [
+            { "value": "in_place", "text": "In Place" },
+            { "value": "not_applicable", "text": "Not Applicable" },
+            { "value": "not_tested", "text": "Not Tested" },
+            { "value": "not_in_place", "text": "Not in Place" }
+          ],
+          "isRequired": true,
+          "defaultValue": "in_place"
+        },
+        {
+          "type": "comment",
+          "name": "assessment_narrative",
+          "title": "Control Assessment Narrative",
+          "description": "Describe why the assessment finding was selected.",
+          "isRequired": true,
+          "rows": 4
+        },
+        {
+          "type": "radiogroup",
+          "name": "customized_approach",
+          "title": "Customized Approach",
+          "choices": [
+            { "value": "yes", "text": "Yes" },
+            { "value": "no", "text": "No" }
+          ],
+          "defaultValue": "no"
+        },
+        {
+          "type": "radiogroup",
+          "name": "defined_approach",
+          "title": "Defined Approach (Compensating Control)",
+          "choices": [
+            { "value": "yes", "text": "Yes" },
+            { "value": "no", "text": "No" }
+          ],
+          "defaultValue": "no"
+        },
+        {
+          "type": "html",
+          "name": "testing_header",
+          "html": "<h4>Testing Procedures</h4>"
+        },
+        {
+          "type": "paneldynamic",
+          "name": "testing_procedures",
+          "title": "",
+          "templateElements": [
+            {
+              "type": "html",
+              "name": "procedure_description",
+              "html": "<div><strong>Procedure:</strong> {panel.procedure}</div>"
+            },
+            {
+              "type": "html",
+              "name": "reporting_instructions",
+              "html": "<div><strong>Reporting Instructions:</strong> {panel.reportingInstructions}</div>"
+            },
+            {
+              "type": "comment",
+              "name": "assessor_response",
+              "title": "Assessor Response",
+              "rows": 2
+            }
+          ],
+          "templateTitle": "Test #{index}",
+          "panelCount": 2
+        }
+      ]
+    }
+  ],
+  "data": {
+    "testing_procedures": [
+      {
+        "procedure": "Examine key management system and/or HSM configuration to verify that cryptographic keys used to protect cardholder data are stored in the fewest possible locations.",
+        "reportingInstructions": "Identify the number and location of cryptographic key storage locations observed. Identify evidence reference number(s) from Section 6 for key storage locations examined."
+      },
+      {
+        "procedure": "Interview key management personnel to verify that a process exists to minimize the storage of cryptographic keys and that the key storage process is implemented.",
+        "reportingInstructions": "Identify evidence reference number(s) from Section 6 for all interviews conducted."
+      }
+    ]
+  }
+}

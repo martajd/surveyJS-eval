@@ -1,0 +1,340 @@
+{
+  "title": "SOC 2 System Description - Section 3",
+  "description": "SOC 2 Type I/II System Description Template",
+  "pages": [
+    {
+      "name": "variables",
+      "title": "System Information",
+      "elements": [
+        {
+          "type": "html",
+          "name": "variables_intro",
+          "html": "<p><strong>Enter system information that will be used throughout this form. These values will be applied to all applicable sections.</strong></p>"
+        },
+        {
+          "type": "text",
+          "name": "client_legal_name",
+          "title": "Client Legal Name",
+          "description": "The official legal entity name that will appear throughout the document"
+        },
+        {
+          "type": "text",
+          "name": "system_name",
+          "title": "System Name",
+          "description": "The name of the system/service being described"
+        },
+        {
+          "type": "text",
+          "name": "start_date",
+          "title": "Assessment Period Start (Month Day, Year)",
+          "inputType": "date"
+        },
+        {
+          "type": "text",
+          "name": "end_date",
+          "title": "Assessment Period End (Month Day, Year)",
+          "inputType": "date"
+        },
+        {
+          "type": "text",
+          "name": "subservice_org",
+          "title": "Subservice Organization/Infrastructure Provider (if applicable)",
+          "description": "e.g., Amazon Web Services (AWS), Google Cloud Platform, etc."
+        },
+        {
+          "type": "text",
+          "name": "subservice_system",
+          "title": "Subservice System Name",
+          "description": "Name of the subservice organization's system being leveraged"
+        }
+      ]
+    },
+    {
+      "name": "services_provided",
+      "title": "Type of Services Provided",
+      "elements": [
+        {
+          "type": "html",
+          "name": "services_intro",
+          "html": "<p><strong>Provide a summary of the services you provide, what the system does, how customers use it, etc.</strong></p><p><em>Instruction: Avoid using 'sales' language. Be factual and land stick to language that is factual and can be audited for the examination.</em></p>"
+        },
+        {
+          "type": "comment",
+          "name": "service_description",
+          "title": "Service Description",
+          "description": "Description of services provided. Include what the system does, how customers use it, and any key functionality.",
+          "rows": 5
+        },
+        {
+          "type": "html",
+          "name": "commitments_header",
+          "html": "<h4>Principal Service Commitments and System Requirements</h4>"
+        },
+        {
+          "type": "html",
+          "name": "commitments_intro",
+          "html": "<p>Commitments MUST match what is in the client's SLA (or similar documents). List each applicable one. Use the category to guide you:</p><p><em>Instruction: When introducing the system, please type out full system name here. If you are testing a generic processing system or platform with no specific name, please replace all instances of [System Name] with 'the [Client Name] processing system/platform'</em></p>"
+        },
+        {
+          "type": "matrixdynamic",
+          "name": "trust_services_commitments",
+          "title": "Service Commitments by Trust Services Category",
+          "columns": [
+            {
+              "name": "category",
+              "title": "Category",
+              "cellType": "text",
+              "readOnly": true
+            },
+            {
+              "name": "has_commitment",
+              "title": "In Scope",
+              "cellType": "checkbox"
+            },
+            {
+              "name": "commitment_text",
+              "title": "Service Commitment",
+              "cellType": "text"
+            }
+          ],
+          "rows": [
+            { "category": "Security", "has_commitment": true, "commitment_text": "" },
+            { "category": "Availability", "has_commitment": true, "commitment_text": "" },
+            { "category": "Processing Integrity", "has_commitment": true, "commitment_text": "" },
+            { "category": "Confidentiality", "has_commitment": true, "commitment_text": "" },
+            { "category": "Privacy", "has_commitment": false, "commitment_text": "" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "system_components",
+      "title": "System Components",
+      "elements": [
+        {
+          "type": "html",
+          "name": "components_intro",
+          "html": "<h4>Infrastructure</h4><p><strong>Instruction: Modify as necessary to fit the client environment.</strong></p><p><em>Instruction: Only include if availability is in-scope</em></p>"
+        },
+        {
+          "type": "comment",
+          "name": "infrastructure_description",
+          "title": "Infrastructure Description",
+          "description": "Describe system components using specific technical names that will help create a clearer understanding of the system and system boundaries.",
+          "rows": 3
+        },
+        {
+          "type": "matrixdynamic",
+          "name": "infrastructure_components",
+          "title": "Infrastructure Components",
+          "columns": [
+            {
+              "name": "production_tool",
+              "title": "Production Tool"
+            },
+            {
+              "name": "business_function",
+              "title": "Business Function"
+            },
+            {
+              "name": "operating_system",
+              "title": "Operating System"
+            },
+            {
+              "name": "hosted_location",
+              "title": "Hosted Location"
+            }
+          ],
+          "rowCount": 2
+        },
+        {
+          "type": "html",
+          "name": "software_header",
+          "html": "<h4>Software</h4><p><strong>Instruction: Modify as necessary to fit the client environment.</strong></p><p><em>Instruction: Items listed are not required, just examples. Edit as necessary.</em></p>"
+        },
+        {
+          "type": "comment",
+          "name": "software_description",
+          "title": "Software Description",
+          "description": "Describe programs and software that support the system, including operating systems, middleware, utilities, and applications.",
+          "rows": 3
+        },
+        {
+          "type": "matrixdynamic",
+          "name": "software_components",
+          "title": "Software Components",
+          "columns": [
+            {
+              "name": "production_application",
+              "title": "Production Application"
+            },
+            {
+              "name": "business_function",
+              "title": "Business Function"
+            }
+          ],
+          "rowCount": 3
+        },
+        {
+          "type": "html",
+          "name": "people_header",
+          "html": "<h4>People</h4><p><strong>Instruction: Modify as necessary to fit the client environment.</strong></p><p><em>Instruction: If 'Privacy' is in scope: consider adding responsible parties for the Privacy program at the Company.</em></p>"
+        },
+        {
+          "type": "matrixdynamic",
+          "name": "people_roles",
+          "title": "Organizational Roles and Responsibilities",
+          "columns": [
+            {
+              "name": "group_role",
+              "title": "Group/Role Name"
+            },
+            {
+              "name": "function",
+              "title": "Function/Responsibility"
+            }
+          ],
+          "rows": [
+            { "group_role": "Executive Management", "function": "" },
+            { "group_role": "Operations/Engineering", "function": "" },
+            { "group_role": "Information Security", "function": "" },
+            { "group_role": "Product Management", "function": "" },
+            { "group_role": "Human Resources", "function": "" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "procedures",
+      "title": "Procedures",
+      "elements": [
+        {
+          "type": "html",
+          "name": "procedures_intro",
+          "html": "<p><strong>Instruction: Modify as necessary to fit the client environment.</strong></p><p>Procedures include automated and manual procedures involved in the operation of the system. Procedures are developed and documented by the respective teams for various processes. These are updated and approved as necessary for changes in the business, but <strong>no less than annually</strong>.</p>"
+        },
+        {
+          "type": "matrixdynamic",
+          "name": "procedures_list",
+          "title": "Key Procedures",
+          "columns": [
+            {
+              "name": "procedure_name",
+              "title": "Procedure"
+            },
+            {
+              "name": "procedure_description",
+              "title": "Description"
+            }
+          ],
+          "rows": [
+            { "procedure_name": "Logical and Physical Access", "procedure_description": "" },
+            { "procedure_name": "System Operation", "procedure_description": "" },
+            { "procedure_name": "Change Management", "procedure_description": "" },
+            { "procedure_name": "Risk Mitigation", "procedure_description": "" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "title": "Data and Incidents",
+      "elements": [
+        {
+          "type": "html",
+          "name": "data_header",
+          "html": "<h4>Data</h4><p><strong>Instruction: Modify as necessary to fit the client environment.</strong></p>"
+        },
+        {
+          "type": "html",
+          "name": "privacy_instruction",
+          "html": "<p><strong>If Privacy is in scope:</strong> Define if the client is a Data Processor, Data Controller, or both. You can mention any specific legal or regulatory oversight applicable to the System or as required by contractual commitment. Controllers have broader obligations and responsibilities for data protection, including ensuring the lawfulness, fairness, and transparency of processing, while processors have specific obligations related to data security, confidentiality, and processing only based on the controller's instructions.</p>"
+        },
+        {
+          "type": "comment",
+          "name": "data_description",
+          "title": "Data Description",
+          "description": "Describe transaction streams, files, data stores, tables, and output used or processed by the system. Include data protection and compliance information.",
+          "rows": 4
+        },
+        {
+          "type": "checkbox",
+          "name": "data_protection_methods",
+          "title": "Data Protection Methods",
+          "description": "Select applicable data protection methods:",
+          "choices": [
+            { "value": "encryption_rest", "text": "Encryption at Rest" },
+            { "value": "encryption_transit", "text": "Encryption in Transit" },
+            { "value": "database_encryption", "text": "Database Encryption" },
+            { "value": "access_controls", "text": "Access Controls" },
+            { "value": "masking", "text": "Data Masking" }
+          ]
+        },
+        {
+          "type": "html",
+          "name": "incidents_header",
+          "html": "<h4>System Incidents</h4>"
+        },
+        {
+          "type": "html",
+          "name": "incidents_instruction",
+          "html": "<p><strong>Instruction (Type I):</strong> Replace with 'AS OF [MONTH DAY, YEAR]'</p><p><strong>Instruction (Type II):</strong> This paragraph needs to change if there were incidents during the period that require disclosure.</p>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "incidents_occurred",
+          "title": "Were there significant system incidents during the assessment period?",
+          "choices": [
+            { "value": "no", "text": "No" },
+            { "value": "yes", "text": "Yes" }
+          ],
+          "defaultValue": "no"
+        },
+        {
+          "type": "comment",
+          "name": "incidents_description",
+          "title": "Incident Description",
+          "description": "Describe any incidents that resulted in the failure to achieve service commitments or system requirements.",
+          "rows": 4,
+          "visibleIf": "{incidents_occurred} = 'yes'"
+        }
+      ]
+    },
+    {
+      "name": "trust_services_criteria",
+      "title": "Trust Services Criteria",
+      "elements": [
+        {
+          "type": "html",
+          "name": "criteria_intro",
+          "html": "<h4>Applicable Trust Services Criteria and Related Controls</h4><p>The Trust Services Criteria that are in scope for the purposes of this report are as follows:</p>"
+        },
+        {
+          "type": "checkbox",
+          "name": "trust_criteria_in_scope",
+          "title": "Trust Services Criteria in Scope",
+          "description": "Select all applicable criteria:",
+          "choices": [
+            { "value": "security", "text": "Security - Information and systems are protected against unauthorized access, unauthorized disclosure of information, and damage to systems that could compromise the availability, processing integrity, confidentiality, or privacy of information or systems and affect the entity's ability to meet its objectives." },
+            { "value": "availability", "text": "Availability - Information and systems are available for operation and use to meet the entity's objectives." },
+            { "value": "processing_integrity", "text": "Processing Integrity - System processing is complete, valid, accurate, timely, and authorized to meet the entity's objectives." },
+            { "value": "confidentiality", "text": "Confidentiality - Information designated as confidential is protected to meet the entity's objectives." },
+            { "value": "privacy", "text": "Privacy - Personal information is collected, used, retained, disclosed, and disposed to meet the entity's objectives." }
+          ]
+        },
+        {
+          "type": "html",
+          "name": "criteria_categories",
+          "html": "<p><strong>Common criteria are organized into the following categories:</strong></p><ol><li><strong>Control environment:</strong> The criteria relevant to how the entity has implemented and is managing and support people within its operating units.</li><li><strong>Information and communication:</strong> The criteria relevant to how the entity communicates its policies, processes, procedures, commitments, and requirements to authorized users.</li><li><strong>Risk assessment:</strong> The criteria relevant to how the entity identifies potential risks that would affect the entity's ability to achieve its objectives, analyzes those risks, develops responses to those risks, and conducts ongoing monitoring of risks and the risk management process.</li><li><strong>Monitoring activities:</strong> The criteria relevant to how the entity monitors the system, including the suitability and design and operating effectiveness of the controls, and acts to address deficiencies identified.</li></ol>"
+        },
+        {
+          "type": "comment",
+          "name": "scope_notes",
+          "title": "Additional Scope Notes",
+          "description": "Any additional notes about scope of Trust Services Criteria",
+          "rows": 3
+        }
+      ]
+    }
+  ]
+}

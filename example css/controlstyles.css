@@ -1,0 +1,1024 @@
+/* Table-parts-cell-alpha */
+
+box-sizing: border-box;
+
+position: relative;
+width: 982px;
+height: 322px;
+
+background: #C7EAF8;
+border: 1px dashed #7B61FF;
+border-radius: 5px;
+
+
+/* Data Type=File Name */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 226px;
+height: 34px;
+left: 20px;
+top: 20px;
+
+
+
+/* framework */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 206px;
+height: 14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* ITAM_Program_20201004.pdf */
+
+width: 206px;
+height: 14px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Primary/Charcoal gray */
+color: #333F48;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Data Type=User photo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 6px;
+
+position: absolute;
+width: 90px;
+height: 44px;
+left: 23px;
+top: 70px;
+
+
+
+/* Avatar-alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(image.png);
+/* Neutral/White */
+border: 1px solid #FFFFFF;
+border-radius: 16px;
+
+
+/* Data Type=Users Multiple */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 6px;
+
+position: absolute;
+width: 90px;
+height: 44px;
+left: 23px;
+top: 117px;
+
+
+
+/* avatars */
+
+width: 56px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Avatar-alpha */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 42px;
+top: 10px;
+
+
+
+/* Group 351 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* bg */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Functional & semantic/Green */
+background: #64A70B;
+/* Neutral/White */
+border: 1px solid #FFFFFF;
+border-radius: 16px;
+
+
+/* RF */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 25%;
+bottom: 29.17%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+/* Neutral/White */
+color: #FFFFFF;
+
+
+
+/* Avatar-alpha */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 26px;
+top: 10px;
+
+
+
+/* image 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(.png), url(image.png);
+/* Neutral/White */
+border: 1px solid #FFFFFF;
+border-radius: 16px;
+
+
+/* Avatar-alpha */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 10px;
+top: 10px;
+
+
+
+/* image 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(image.png);
+/* Neutral/White */
+border: 1px solid #FFFFFF;
+border-radius: 16px;
+
+
+/* Data Type=User initials */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 6px;
+
+position: absolute;
+width: 90px;
+height: 44px;
+left: 117px;
+top: 70px;
+
+
+
+/* Avatar-alpha */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 351 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* bg */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Functional & semantic/Green */
+background: #64A70B;
+/* Neutral/White */
+border: 1px solid #FFFFFF;
+border-radius: 16px;
+
+
+/* RF */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 25%;
+bottom: 29.17%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+/* Neutral/White */
+color: #FFFFFF;
+
+
+
+/* Data Type=Date & Time */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 120px;
+height: 34px;
+left: 241px;
+top: 92px;
+
+
+
+/* Nov 14, 2021 12:00 PM */
+
+margin: 0 auto;
+width: 70px;
+height: 32px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+/* Neutral/Charcoal gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Data Type=Requirements Multiple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 10px;
+
+position: absolute;
+width: 140px;
+height: 48px;
+left: 241px;
+top: 18px;
+
+
+
+/* Automated Unauthorized ... */
+
+width: 120px;
+height: 32px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+/* Neutral/Charcoal gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 2 more */
+
+width: 38px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Primary/Blue adjusted - primary */
+color: #2D7698;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Data Type=N/A */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 120px;
+height: 34px;
+left: 609px;
+top: 18px;
+
+
+
+/* - */
+
+width: 4px;
+height: 16px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Neutral/Charcoal gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Data Type=Tag */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 120px;
+height: 34px;
+left: 729px;
+top: 18px;
+
+
+
+/* Tag-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 2px 4px;
+gap: 10px;
+
+width: 28px;
+height: 18px;
+
+/* Functional & semantic/Red-orange 25% */
+background: rgba(220, 88, 42, 0.25);
+border-radius: 2px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Tag */
+
+width: 20px;
+height: 14px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Functional & semantic/Orange adjusted */
+color: #C0572A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Data Type=Priority */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 120px;
+height: 34px;
+left: 729px;
+top: 203px;
+
+
+
+/* Priority-alpha */
+
+width: 38px;
+height: 14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* dot */
+
+position: absolute;
+width: 6px;
+height: 6px;
+left: 0px;
+top: calc(50% - 6px/2);
+
+/* Functional & semantic/Red-orange */
+background: #DC582A;
+
+
+/* High */
+
+position: absolute;
+height: 14px;
+left: 12px;
+right: 0px;
+top: calc(50% - 14px/2);
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Functional & semantic/Orange adjusted */
+color: #C0572A;
+
+
+
+/* Data Type=Workflow */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 8px;
+
+position: absolute;
+width: 120px;
+height: 34px;
+left: 729px;
+top: 121px;
+
+
+
+/* Workflow indicator-alpha */
+
+width: 24px;
+height: 10px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* bar */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/Light gray */
+background: #D0D3D4;
+opacity: 0.8;
+
+
+/* bar */
+
+position: absolute;
+left: 0%;
+right: 62.5%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/Charcoal gray 50% */
+background: rgba(51, 63, 72, 0.5);
+
+
+/* bar */
+
+position: absolute;
+left: 62.5%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/Light gray */
+background: #D0D3D4;
+opacity: 0.8;
+
+
+/* Tag-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 2px 4px;
+gap: 10px;
+
+width: 28px;
+height: 18px;
+
+/* Neutral/Light gray 30% */
+background: rgba(208, 211, 212, 0.3);
+border-radius: 2px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Tag */
+
+width: 20px;
+height: 14px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+/* Neutral/Medium gray */
+color: #5B6770;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Data Type=Progress */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 36px;
+height: 34px;
+left: 729px;
+top: 68px;
+
+
+
+/* Status-alpha */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* White circle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/White */
+background: #FFFFFF;
+
+
+/* circle (Stroke) */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Functional & semantic/Green */
+background: #64A70B;
+
+
+/* Data Type=Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 7px 4px;
+gap: 10px;
+
+position: absolute;
+width: 28px;
+height: 34px;
+left: 886px;
+top: 121px;
+
+
+
+/* Icons / star -alpha */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 5.2%;
+right: 5.2%;
+top: 6.67%;
+bottom: 8.12%;
+
+/* Functional & semantic/Gold */
+background: #F0B323;
+
+
+/* Data Type=Checkbox */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 36px;
+height: 34px;
+left: 840px;
+top: 68px;
+
+
+
+/* Checkbox-alpha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 4px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* checkbox */
+
+box-sizing: border-box;
+
+width: 16px;
+height: 16px;
+
+/* Neutral/White */
+background: #FFFFFF;
+/* Neutral/Muted blue 25% */
+border: 1px solid rgba(99, 153, 174, 0.25);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Data Type=Toggle */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 36px;
+height: 34px;
+left: 904px;
+top: 68px;
+
+
+
+/* Switch-alpha */
+
+width: 22px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 54 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Functional & semantic/Blue */
+background: #009CBD;
+border-radius: 6px;
+
+
+/* Ellipse 15 */
+
+position: absolute;
+left: 50%;
+right: 4.55%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/White */
+background: #FFFFFF;
+
+
+/* Data Type=Description */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 168px;
+height: 48px;
+left: 402px;
+top: 87px;
+
+
+
+/* Frame 14058 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 148px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* ACME Customer Success Platform/Asset Management ... */
+
+width: 148px;
+height: 48px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+/* Neutral/Charcoal gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Data Type=Requirement */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 140px;
+height: 48px;
+left: 402px;
+top: 16px;
+
+
+
+/* Automated Unauthorized Component ... */
+
+width: 120px;
+height: 48px;
+
+/* Body - Regular 12 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+/* Neutral/Charcoal gray 80% */
+color: rgba(51, 63, 72, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;

@@ -1,0 +1,413 @@
+{
+  "title": "PCI DSS Requirement 2: Apply Secure Configurations to All System Components",
+  "description": "Assessment form for PCI DSS Requirement 2 compliance",
+  "pages": [
+    {
+      "name": "page1",
+      "title": "Requirement 2.1 - Processes and Mechanisms",
+      "elements": [
+        {
+          "type": "html",
+          "name": "req2_1_intro",
+          "html": "<h3>Requirement 2.1: Processes and mechanisms for applying secure configurations to all system components are defined and understood.</h3>"
+        },
+        {
+          "type": "html",
+          "name": "req2_1_bullet_points",
+          "html": "<p><strong>2.1.1 All security policies and operational procedures that are identified in Requirement 2 are:</strong><ul><li>Documented.</li><li>Kept up to date.</li><li>In use.</li><li>Known to all affected parties.</li></ul></p>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "assessment_finding_2_1_1",
+          "title": "Assessment Findings (select one)",
+          "choices": [
+            {
+              "value": "in_place",
+              "text": "In Place"
+            },
+            {
+              "value": "not_applicable",
+              "text": "Not Applicable"
+            },
+            {
+              "value": "not_tested",
+              "text": "Not Tested"
+            },
+            {
+              "value": "not_in_place",
+              "text": "Not in Place"
+            }
+          ],
+          "isRequired": true,
+          "defaultValue": "in_place"
+        },
+        {
+          "type": "comment",
+          "name": "finding_description_2_1_1",
+          "title": "Describe why the assessment finding was selected.",
+          "description": "Note: Include all details as noted in the \"Required Reporting\" column of the table in Assessment Findings in the ROC Template Instructions.",
+          "isRequired": true,
+          "rows": 5
+        },
+        {
+          "type": "html",
+          "name": "validation_customized_header",
+          "html": "<h4>Validation Method – Customized Approach</h4>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "customized_approach_used",
+          "title": "Indicate whether a Customized Approach was used:",
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            }
+          ],
+          "defaultValue": "no"
+        },
+        {
+          "type": "comment",
+          "name": "customized_approach_details",
+          "title": "If \"Yes\", Identify the aspect(s) of the requirement where the Customized Approach was used.",
+          "description": "Note: The use of Customized Approach must also be documented in Appendix E.",
+          "visibleIf": "{customized_approach_used} = 'yes'",
+          "rows": 3
+        },
+        {
+          "type": "html",
+          "name": "validation_defined_header",
+          "html": "<h4>Validation Method – Defined Approach</h4>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "compensating_control_used",
+          "title": "Indicate whether a Compensating Control was used:",
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            }
+          ],
+          "defaultValue": "no"
+        },
+        {
+          "type": "comment",
+          "name": "compensating_control_details",
+          "title": "If \"Yes\", Identify the aspect(s) of the requirement where the Compensating Control(s) was used.",
+          "description": "Note: The use of Compensating Controls must also be documented in Appendix C.",
+          "visibleIf": "{compensating_control_used} = 'yes'",
+          "rows": 3
+        }
+      ]
+    },
+    {
+      "name": "page2",
+      "title": "Requirement 2.1.2 - Roles and Responsibilities",
+      "elements": [
+        {
+          "type": "html",
+          "name": "req2_1_2_intro",
+          "html": "<h3>Requirement 2.1.2: Roles and responsibilities for performing activities in Requirement 2 are documented, assigned, and understood.</h3>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "assessment_finding_2_1_2",
+          "title": "Assessment Findings (select one)",
+          "choices": [
+            {
+              "value": "in_place",
+              "text": "In Place"
+            },
+            {
+              "value": "not_applicable",
+              "text": "Not Applicable"
+            },
+            {
+              "value": "not_tested",
+              "text": "Not Tested"
+            },
+            {
+              "value": "not_in_place",
+              "text": "Not in Place"
+            }
+          ],
+          "isRequired": true
+        },
+        {
+          "type": "comment",
+          "name": "finding_description_2_1_2",
+          "title": "Describe why the assessment finding was selected.",
+          "description": "Note: Include all details as noted in the \"Required Reporting\" column of the table in Assessment Findings in the ROC Template Instructions.",
+          "isRequired": true,
+          "rows": 5
+        },
+        {
+          "type": "html",
+          "name": "validation_customized_header_2",
+          "html": "<h4>Validation Method – Customized Approach</h4>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "customized_approach_used_2_1_2",
+          "title": "Indicate whether a Customized Approach was used:",
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            }
+          ],
+          "defaultValue": "no"
+        },
+        {
+          "type": "comment",
+          "name": "customized_approach_details_2_1_2",
+          "title": "If \"Yes\", Identify the aspect(s) of the requirement where the Customized Approach was used.",
+          "visibleIf": "{customized_approach_used_2_1_2} = 'yes'",
+          "rows": 3
+        },
+        {
+          "type": "html",
+          "name": "validation_defined_header_2",
+          "html": "<h4>Validation Method – Defined Approach</h4>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "compensating_control_used_2_1_2",
+          "title": "Indicate whether a Compensating Control was used:",
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            }
+          ],
+          "defaultValue": "no"
+        },
+        {
+          "type": "comment",
+          "name": "compensating_control_details_2_1_2",
+          "title": "If \"Yes\", Identify the aspect(s) of the requirement where the Compensating Control(s) was used.",
+          "visibleIf": "{compensating_control_used_2_1_2} = 'yes'",
+          "rows": 3
+        }
+      ]
+    },
+    {
+      "name": "page3",
+      "title": "Requirement 2.2 - System Components Configuration",
+      "elements": [
+        {
+          "type": "html",
+          "name": "req2_2_intro",
+          "html": "<h3>Requirement 2.2: System components are configured and managed securely.</h3>"
+        },
+        {
+          "type": "html",
+          "name": "req2_2_bullet_points",
+          "html": "<p><strong>2.2.1 Configuration standards are developed, implemented, and maintained to:</strong><ul><li>Cover all system components.</li><li>Address all known security vulnerabilities.</li><li>Be consistent with industry-accepted system hardening standards or vendor hardening recommendations.</li><li>Be updated as new vulnerability issues are identified, as defined in Requirement 6.3.1.</li><li>Be applied when new systems are configured and verified as in place before or immediately after a system component is connected to a production environment.</li></ul></p>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "assessment_finding_2_2_1",
+          "title": "Assessment Findings (select one)",
+          "choices": [
+            {
+              "value": "in_place",
+              "text": "In Place"
+            },
+            {
+              "value": "not_applicable",
+              "text": "Not Applicable"
+            },
+            {
+              "value": "not_tested",
+              "text": "Not Tested"
+            },
+            {
+              "value": "not_in_place",
+              "text": "Not in Place"
+            }
+          ],
+          "isRequired": true,
+          "defaultValue": "in_place"
+        },
+        {
+          "type": "comment",
+          "name": "finding_description_2_2_1",
+          "title": "Describe why the assessment finding was selected.",
+          "description": "Note: Include all details as noted in the \"Required Reporting\" column of the table in Assessment Findings in the ROC Template Instructions.",
+          "isRequired": true,
+          "rows": 5
+        },
+        {
+          "type": "html",
+          "name": "validation_customized_header_3",
+          "html": "<h4>Validation Method – Customized Approach</h4>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "customized_approach_used_2_2_1",
+          "title": "Indicate whether a Customized Approach was used:",
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            }
+          ],
+          "defaultValue": "no"
+        },
+        {
+          "type": "comment",
+          "name": "customized_approach_details_2_2_1",
+          "title": "If \"Yes\", Identify the aspect(s) of the requirement where the Customized Approach was used.",
+          "visibleIf": "{customized_approach_used_2_2_1} = 'yes'",
+          "rows": 3
+        }
+      ]
+    },
+    {
+      "name": "page4",
+      "title": "Testing Procedures and Evidence References",
+      "elements": [
+        {
+          "type": "html",
+          "name": "testing_procedures_intro",
+          "html": "<h3>Testing Procedures and Reporting Details</h3><p>This section documents the testing procedures, reporting instructions, and assessor responses for validation of the requirements above.</p>"
+        },
+        {
+          "type": "checkbox",
+          "name": "testing_procedures_completed",
+          "title": "Testing Procedures",
+          "description": "Select all testing procedures that were completed:",
+          "choices": [
+            {
+              "value": "2.1.1_examine",
+              "text": "2.1.1 Examine documentation and interview personnel to verify that security policies and operational procedures identified in Requirement 2 are managed in accordance with all elements specified in this requirement."
+            },
+            {
+              "value": "2.1.2a_examine",
+              "text": "2.1.2.a Examine documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 2 are documented and assigned."
+            },
+            {
+              "value": "2.1.2b_interview",
+              "text": "2.1.2.b Interview personnel with responsibility for performing activities in Requirement 2 to verify that roles and responsibilities are assigned as documented and are understood."
+            },
+            {
+              "value": "2.2.1a_examine",
+              "text": "2.2.1.a Examine system configuration standards to verify they define processes that include all elements specified in this requirement."
+            },
+            {
+              "value": "2.2.1b_examine",
+              "text": "2.2.1.b Examine policies and procedures and interview personnel to verify that system configuration standards are updated as new vulnerability issues are identified, as defined in Requirement 6.3.1."
+            },
+            {
+              "value": "2.2.1c_examine",
+              "text": "2.2.1.c Examine configuration settings and interview personnel to verify that system configuration standards are applied when new systems are configured."
+            }
+          ]
+        },
+        {
+          "type": "html",
+          "name": "evidence_references_intro",
+          "html": "<h4>Evidence References</h4><p>Identify evidence reference numbers from Section 6 (Documentation, interviews, configuration standards, policies, and other evidence examined for this assessment).</p>"
+        },
+        {
+          "type": "text",
+          "name": "evidence_refs_documentation",
+          "title": "Documentation Evidence References (e.g., AUD-041, AUD-042):",
+          "description": "From Section 6 for all documentation examined for testing procedures."
+        },
+        {
+          "type": "text",
+          "name": "evidence_refs_interviews",
+          "title": "Interview Evidence References (e.g., INT-01, INT-02):",
+          "description": "From Section 6 for all interviews conducted for testing procedures."
+        },
+        {
+          "type": "text",
+          "name": "evidence_refs_configuration",
+          "title": "Configuration Evidence References (e.g., CONF-01, CONF-02):",
+          "description": "From Section 6 for all configuration settings examined for testing procedures."
+        }
+      ]
+    },
+    {
+      "name": "page5",
+      "title": "Summary and Assessor Response",
+      "elements": [
+        {
+          "type": "html",
+          "name": "summary_intro",
+          "html": "<h3>Assessment Summary and Assessor Response</h3>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "overall_finding",
+          "title": "Overall Assessment Finding for Requirement 2:",
+          "choices": [
+            {
+              "value": "in_place",
+              "text": "In Place"
+            },
+            {
+              "value": "not_applicable",
+              "text": "Not Applicable"
+            },
+            {
+              "value": "not_tested",
+              "text": "Not Tested"
+            },
+            {
+              "value": "not_in_place",
+              "text": "Not in Place"
+            }
+          ],
+          "isRequired": true
+        },
+        {
+          "type": "comment",
+          "name": "assessor_comments",
+          "title": "Assessor Comments:",
+          "description": "Provide detailed assessment findings, observations, and recommendations.",
+          "rows": 8
+        },
+        {
+          "type": "text",
+          "name": "assessor_name",
+          "title": "Assessor Name:"
+        },
+        {
+          "type": "text",
+          "name": "assessment_date",
+          "title": "Assessment Date:",
+          "inputType": "date"
+        },
+        {
+          "type": "html",
+          "name": "footer",
+          "html": "<hr><p>PCI DSS v4.0 Assessment Form - Requirement 2: Apply Secure Configurations to All System Components</p>"
+        }
+      ]
+    }
+  ]
+}

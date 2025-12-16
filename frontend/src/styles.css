@@ -9,11 +9,401 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+  background-color: #f5f5f5;
 }
 
 app-root {
   display: flex;
   height: 100%;
   width: 100%;
+}
+
+/* ====== CUSTOM SURVEY THEME ====== */
+
+/* Modal panel styling */
+.sjs-window {
+  box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 6px 3px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.sjs-panel {
+  border: 1px solid rgba(208, 211, 212, 0.5);
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+/* Primary buttons */
+.sjs-btn-primary,
+.sjs-survey button[type="button"]:not(.sjs-btn-outline) {
+  background-color: #2D7698;
+  border-color: #2D7698;
+  color: #FFFFFF;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 8px 12px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.sjs-btn-primary:hover,
+.sjs-survey button[type="button"]:not(.sjs-btn-outline):hover {
+  background-color: #245a7e;
+  border-color: #245a7e;
+}
+
+.sjs-btn-primary:active,
+.sjs-survey button[type="button"]:not(.sjs-btn-outline):active {
+  background-color: #1d475d;
+}
+
+/* Secondary/Outline buttons */
+.sjs-btn,
+.sjs-btn-outline,
+.sjs-survey button[type="button"].sjs-btn-outline {
+  background-color: #FFFFFF;
+  border: 1px solid #2D7698;
+  color: #2D7698;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 8px 12px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.sjs-btn:hover,
+.sjs-btn-outline:hover,
+.sjs-survey button[type="button"].sjs-btn-outline:hover {
+  background-color: #F0F9FB;
+  border-color: #2D7698;
+}
+
+/* Cancel/Regular buttons */
+.sjs-btn,
+button.sjs-btn,
+.sjs-survey button {
+  background-color: #FFFFFF;
+  border: 1px solid #D0D3D4;
+  color: #333F48;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.sjs-btn:hover,
+button.sjs-btn:hover,
+.sjs-survey button:hover {
+  background-color: #F5F5F5;
+}
+
+/* Input fields - text, dropdown, etc */
+.sjs-input,
+.sjs-dropdown,
+.sjs-dropdown-modern,
+.sjs-text,
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+  border: 1px solid rgba(208, 211, 212, 0.5);
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-size: 12px;
+  color: #333F48;
+}
+
+.sjs-input:hover,
+.sjs-dropdown:hover,
+.sjs-dropdown-modern:hover,
+.sjs-text:hover,
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="number"]:hover,
+input[type="date"]:hover,
+select:hover,
+textarea:hover {
+  border-color: rgba(208, 211, 212, 0.8);
+}
+
+.sjs-input:focus,
+.sjs-dropdown:focus,
+.sjs-dropdown-modern:focus,
+.sjs-text:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #2D7698;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(45, 118, 152, 0.1);
+}
+
+/* Placeholder text */
+.sjs-input::placeholder,
+input::placeholder,
+textarea::placeholder {
+  color: rgba(51, 63, 72, 0.5);
+}
+
+/* Chips/Tags */
+.sjs-chip {
+  background-color: #E5F5F8;
+  border: 1px solid rgba(99, 153, 174, 0.25);
+  border-radius: 4px;
+  color: #2D7698;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.sjs-chip:hover {
+  background-color: #D9EAEF;
+}
+
+/* Checkboxes */
+.sjs-checkbox,
+.sjs-checkbox-frame,
+.sjs-checkbox input[type="checkbox"],
+input[type="checkbox"] {
+  border: 1px solid rgba(99, 153, 174, 0.25);
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.sjs-checkbox input[type="checkbox"]:checked,
+input[type="checkbox"]:checked {
+  background-color: #2D7698;
+  border-color: #2D7698;
+}
+
+.sjs-checkbox input[type="checkbox"]:focus,
+input[type="checkbox"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(45, 118, 152, 0.1);
+}
+
+/* Radio buttons */
+.sjs-radioitem,
+.sjs-radio input[type="radio"],
+input[type="radio"] {
+  border: 1px solid rgba(99, 153, 174, 0.25);
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+.sjs-radio input[type="radio"]:checked,
+input[type="radio"]:checked {
+  background-color: #2D7698;
+  border-color: #2D7698;
+}
+
+.sjs-radio input[type="radio"]:focus,
+input[type="radio"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(45, 118, 152, 0.1);
+}
+
+/* Headers/Titles */
+.sjs-question-title,
+.sjs-title,
+.sjs-page-title,
+label {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #333F48;
+}
+
+.sjs-question-subtitle,
+.sjs-subtitle {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #333F48;
+}
+
+/* Links */
+.sjs-link,
+a {
+  color: #2D7698;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sjs-link:hover,
+a:hover {
+  text-decoration: underline;
+}
+
+/* Survey container */
+.sjs-survey {
+  background-color: transparent;
+}
+
+/* Question containers */
+.sjs-question,
+.sjs-question-content {
+  margin-bottom: 16px;
+}
+
+/* Dropdown popup items */
+.sjs-popup-item,
+.sjs-dropdown-popup-item {
+  color: #333F48;
+  background-color: #FFFFFF;
+}
+
+.sjs-dropdown-popup-item:hover {
+  background-color: rgba(45, 118, 152, 0.1);
+  color: #2D7698;
+}
+
+.sjs-dropdown-popup-item.selected,
+.sjs-dropdown-popup-item.checked {
+  background-color: rgba(45, 118, 152, 0.2);
+  color: #2D7698;
+}
+
+/* Borders and dividers */
+hr,
+.sjs-hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(208, 211, 212, 0.3);
+}
+
+/* Error states */
+.sjs-error,
+.sjs-invalid,
+.sjs-question.sjs-invalid {
+  color: #d32f2f;
+}
+
+.sjs-question.sjs-invalid input,
+.sjs-question.sjs-invalid select,
+.sjs-question.sjs-invalid textarea {
+  border-color: #d32f2f;
+}
+
+/* Success states */
+.sjs-success {
+  color: #388e3c;
+}
+
+/* Force full width for SurveyJS containers - override library's 720px default */
+:root ::ng-deep .sv_body,
+:root ::ng-deep .sv_page,
+:root ::ng-deep .sv_p_root,
+:root ::ng-deep .sv_container,
+:root ::ng-deep .sv_root_modern,
+:root ::ng-deep survey {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* ====== TOGGLE/SWITCH STYLING - from controlstyles.css ====== */
+
+/* Toggle switch container */
+.sjs-switch-wrapper,
+.sv_q_checkbox,
+.sjs-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+/* Toggle switch track */
+.sjs-toggle-track,
+.sv_select_wrapped input[type="checkbox"]:not(:checked),
+input[type="checkbox"].sjs-switch {
+  width: 22px;
+  height: 12px;
+  background-color: #009CBD;
+  border-radius: 6px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  outline: none;
+}
+
+/* Toggle switch thumb/circle */
+.sjs-toggle-thumb,
+.sv_select_wrapped input[type="checkbox"]:not(:checked)::after,
+input[type="checkbox"].sjs-switch::after {
+  content: '';
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+  transition: left 0.3s ease;
+}
+
+/* Toggle switch when checked */
+.sjs-toggle-track.checked,
+.sv_select_wrapped input[type="checkbox"]:checked,
+input[type="checkbox"].sjs-switch:checked {
+  background-color: #009CBD;
+}
+
+/* Toggle switch thumb when checked */
+.sjs-toggle-thumb.checked,
+.sv_select_wrapped input[type="checkbox"]:checked::after,
+input[type="checkbox"].sjs-switch:checked::after {
+  left: 11px;
+  left: 50%;
+}
+
+/* Modern toggle appearance */
+.sv_select_wrapped label input[type="checkbox"],
+.sv_q_checkbox input[type="checkbox"],
+input.sjs-toggle {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 22px;
+  height: 12px;
+  background: #009CBD;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  transition: background-color 0.3s ease;
+  padding: 0;
+  margin: 0;
+}
+
+input.sjs-toggle:checked {
+  background: #009CBD;
+}
+
+input.sjs-toggle::before {
+  content: '';
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+  transition: left 0.3s ease;
+}
+
+input.sjs-toggle:checked::before {
+  left: 11px;
 }
